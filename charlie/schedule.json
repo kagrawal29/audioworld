@@ -1,0 +1,37 @@
+{
+  "triggers": [
+    {
+      "id": "evening-actuals",
+      "name": "Evening actuals update",
+      "time": "18:00",
+      "days": ["mon", "tue", "wed", "thu", "fri"],
+      "message": "[SCHEDULED] Evening update — reconcile today's sprint actuals in the spreadsheet and share a summary with the user.",
+      "needs_lead": true
+    },
+    {
+      "id": "friday-next-week",
+      "name": "Next week plan check",
+      "time": "17:00",
+      "days": ["fri"],
+      "message": "[SCHEDULED] Friday check — review next week's outreach plan in the spreadsheet. Flag any days without prep sheets. Suggest segments to prioritize.",
+      "needs_lead": true
+    },
+    {
+      "id": "morning-briefing",
+      "name": "Morning sprint briefing",
+      "time": "09:30",
+      "days": ["mon", "tue", "wed", "thu", "fri"],
+      "message": "[SCHEDULED] Morning briefing — check if today's execution sheet is approved. If yes, remind the user it's ready to sprint. If not, nudge for approval.",
+      "needs_lead": true
+    },
+    {
+      "id": "post-sprint-summary",
+      "name": "Post-sprint summary",
+      "time": "13:00",
+      "days": ["mon", "tue", "wed", "thu", "fri"],
+      "message": "[SCHEDULED] Post-sprint check — if a sprint ran today, summarize results (sent/failed/skipped) and update the spreadsheet actuals.",
+      "needs_lead": true
+    }
+  ],
+  "timezone": "Asia/Kolkata"
+}

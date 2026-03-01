@@ -1,0 +1,27 @@
+# Environment and secrets
+charlie/.env
+charlie/service_account.json
+charlie/client_secret.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Runtime artifacts
+charlie/inbox/*.json
+charlie/outbox/*.json
+charlie/logs/
+
+# Browser profile (large, contains session data)
+.claude/browser-profile/
+
+# Playwright MCP logs
+.playwright-mcp/
+
+# Temp files
+drive-auth-link.txt
+*.tmp
+.DS_Store
