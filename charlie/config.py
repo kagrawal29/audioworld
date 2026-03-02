@@ -25,11 +25,10 @@ OUTBOX_POLL_INTERVAL = 2       # check for outbox responses
 FILE_POLL_INTERVAL = 30        # check sprint-prep changes
 ALERT_POLL_INTERVAL = 10       # check tmux for alerts
 
-# Alert keywords to watch for in tmux output
-ALERT_KEYWORDS = [
-    "captcha", "verification", "unusual activity",
-    "rate limit", "FULL STOP", "restriction",
-]
+# Alert detection is now disabled. It caused false positives by matching
+# keywords in normal conversation text. LinkedIn safety is handled by the
+# operator agent, which reports issues directly via team messages.
+ALERT_KEYWORDS = []
 
 # Polling intervals for scheduler
 SCHEDULER_POLL_INTERVAL = 60   # check schedule every 60s

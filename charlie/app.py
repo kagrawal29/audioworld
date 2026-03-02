@@ -282,7 +282,8 @@ def main() -> None:
     Thread(target=monitor_sprint_prep, daemon=True).start()
     Thread(target=monitor_alerts, daemon=True).start()
     Thread(target=run_scheduler, daemon=True).start()
-    Thread(target=pulse, daemon=True).start()
+    # Pulse disabled — re-enable when needed
+    # Thread(target=pulse, daemon=True).start()
 
     print(f"  Outbox watcher: polling every {config.OUTBOX_POLL_INTERVAL}s")
     print(f"  Sprint-prep monitor: polling every {config.FILE_POLL_INTERVAL}s")
