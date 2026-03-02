@@ -32,6 +32,15 @@
       "message": "[SCHEDULED] Post-sprint check — if a sprint ran today, summarize results (sent/failed/skipped) and update the spreadsheet actuals.",
       "needs_lead": true
     }
+    ,
+    {
+      "id": "daily-git-push",
+      "name": "Daily git push",
+      "time": "23:00",
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+      "message": "[SCHEDULED] Daily git push — review all changes made today (git diff, new files, modified configs, sprint-prep sheets, memory updates, code fixes). Stage everything relevant, write a detailed commit message summarizing the day's work (what was done, bugs fixed, configs changed, sprints run, lessons learned). Push to origin/main. Report the commit hash and summary on Slack.",
+      "needs_lead": true
+    }
   ],
   "timezone": "Asia/Kolkata"
 }

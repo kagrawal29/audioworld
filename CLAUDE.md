@@ -410,6 +410,8 @@ When you see: `Process Slack message from charlie/inbox/{id}.json`
 - Write clear, concise text (it will appear in Slack as-is)
 - Use markdown  -  Slack renders it reasonably well
 - **Always include LinkedIn profile URLs and post URLs** when referencing people or content
+- **NEVER mention local file paths on Slack** (e.g. `/root/Desktop/...`). The user can't access server files. When referencing files, upload to Google Drive first and share the link. If no file to share, just describe the content.
+- **Don't send system self-test messages to Slack.** Startup tests, thread tests, and debug output stay on the server. Only send messages that are useful to the user.
 - For long content (execution sheets, status tables), use code blocks
 - Keep responses under 3000 chars (Slack truncates at 4000)
 
@@ -427,6 +429,7 @@ Current triggers:
 - **13:00 weekdays**  -  Post-sprint check (summarize results if sprint ran)
 - **17:00 Fridays**  -  Next week plan review
 - **18:00 weekdays**  -  Evening actuals update
+- **23:00 daily**  -  Git push (stage all changes, detailed commit of the day's work, push to origin/main)
 
 ### Exchange logging
 All messages (in and out) are logged to `charlie/logs/YYYY-MM-DD.jsonl`. One line per exchange with timestamp, direction, user, and text. These persist for pattern analysis.
