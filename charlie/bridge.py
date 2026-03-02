@@ -97,6 +97,12 @@ def watch_outbox(callback: Callable[[dict], None]) -> None:
                     path.unlink()
                 except (json.JSONDecodeError, OSError) as exc:
                     print(f"[outbox] Error processing {path.name}: {exc}")
+                except Exception as exc:
+                    print(f"[outbox] Callback failed for {path.name}: {exc}")
+                    try:
+                        path.unlink()
+                    except OSError:
+                        pass
                 seen.add(path.name)
         except OSError:
             pass

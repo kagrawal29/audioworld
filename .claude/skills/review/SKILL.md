@@ -14,8 +14,7 @@ Review the execution sheet against quality standards before user approval.
 
 2. Read the full sheet.
 
-3. Apply every check from the review checklist:
-   `/Users/kshitiz/.claude/projects/-Users-kshitiz/memory/linkedin-review-checklist.md`
+3. Apply every check from the review checklist below:
 
 4. Score each section:
 

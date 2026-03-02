@@ -13,7 +13,7 @@ You are activating **Prep Mode** for the LinkedIn operator.
 ### Steps
 
 1. Read the daily plan from the spreadsheet to confirm tomorrow's segment and targets:
-   `/Users/kshitiz/Desktop/Seed Forth/audioworld/AudioWorld_March_2026_Touchpoints_with_Content_Library.xlsx`
+   `/root/Desktop/audioworld/AudioWorld_March_2026_Touchpoints_with_Content_Library.xlsx`
 
 2. Read the ICP details for the target segment from the `ICP_Segments` sheet to get:
    - Ideal Customer Profile
@@ -38,7 +38,7 @@ You are activating **Prep Mode** for the LinkedIn operator.
 
 6. Tell the user: "Prep Mode activated for [segment]. The operator is building the execution sheet. I'll review it against the checklist when it's ready."
 
-7. When the operator reports back, review using the checklist at:
-   `/Users/kshitiz/.claude/projects/-Users-kshitiz/memory/linkedin-review-checklist.md`
+7. When the operator reports back, review using the checklist embedded in the review skill:
+   `/root/Desktop/audioworld/.claude/skills/review/SKILL.md` (lines 22-45)
 
 8. Present the sheet to the user for final approval. Flag any gaps.

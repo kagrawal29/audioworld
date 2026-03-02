@@ -52,39 +52,30 @@ _charlie_threads: set[str] = set()
 
 @app.event("message")
 def handle_message(event, say, logger):
-    """Process messages only when Charlie is @mentioned or replied to in its threads."""
+    """Process thread replies to Charlie. @mentions are handled by app_mention."""
     # Ignore bot's own messages
     if event.get("bot_id") or event.get("subtype"):
         return
 
     text = event.get("text", "")
+
+    # Skip @mentions — handled by app_mention to avoid duplicates
+    is_mention = _bot_user_id and f"<@{_bot_user_id}>" in text
+    if is_mention:
+        return
+
+    # Only process replies in threads Charlie participated in
+    is_charlie_thread = event.get("thread_ts") and event["thread_ts"] in _charlie_threads
+    if not is_charlie_thread:
+        return
+
     channel = event["channel"]
     thread_ts = event.get("thread_ts") or event.get("ts")
     user = event.get("user", "unknown")
 
-    # Check if Charlie is @mentioned in the message
-    is_mention = _bot_user_id and f"<@{_bot_user_id}>" in text
+    logger.info(f"Processing thread reply from {user}: {text[:80]}")
 
-    # Check if this is a reply in a thread Charlie participated in
-    is_charlie_thread = event.get("thread_ts") and event["thread_ts"] in _charlie_threads
-
-    # Privacy: only process @mentions and Charlie-thread replies.
-    # All other channel messages are ignored.
-    if not is_mention and not is_charlie_thread:
-        return
-
-    # Strip bot mention from text if present
-    import re
-    clean_text = re.sub(r"<@[A-Z0-9]+>\s*", "", text).strip() if is_mention else text
-
-    if is_mention and not clean_text:
-        # Empty mention — still route to lead so Charlie can respond in character
-        clean_text = "(empty mention — user pinged Charlie without a message)"
-
-    logger.info(f"Processing {'mention' if is_mention else 'thread reply'} from {user}: {clean_text[:80]}")
-
-    # Write to inbox + nudge lead — no ack, the outbox response IS the reply
-    msg_id = bridge.write_inbox(channel, user, clean_text, thread_ts)
+    msg_id = bridge.write_inbox(channel, user, text, thread_ts)
 
     try:
         bridge.send_to_lead(msg_id)
@@ -94,8 +85,33 @@ def handle_message(event, say, logger):
 
 @app.event("app_mention")
 def handle_mention(event, say, logger):
-    """Fallback for app_mention events (if subscribed). Handled by handle_message already."""
-    pass
+    """Handle @charlie mentions. This fires via app_mentions:read scope."""
+    import re
+
+    # Ignore bot's own messages
+    if event.get("bot_id") or event.get("subtype"):
+        return
+
+    text = event.get("text", "")
+    channel = event["channel"]
+    thread_ts = event.get("thread_ts") or event.get("ts")
+    user = event.get("user", "unknown")
+
+    # Strip bot mention from text
+    clean_text = re.sub(r"<@[A-Z0-9]+>\s*", "", text).strip()
+
+    if not clean_text:
+        clean_text = "(empty mention — user pinged Charlie without a message)"
+
+    logger.info(f"Processing app_mention from {user}: {clean_text[:80]}")
+
+    # Write to inbox + nudge lead
+    msg_id = bridge.write_inbox(channel, user, clean_text, thread_ts)
+
+    try:
+        bridge.send_to_lead(msg_id)
+    except Exception as e:
+        logger.warning(f"tmux nudge failed: {e}")
 
 
 # ── Outbox watcher ───────────────────────────────────────────────────
@@ -103,7 +119,7 @@ def handle_mention(event, say, logger):
 def outbox_callback(data: dict) -> None:
     """Post an outbox message back to Slack."""
     thread_ts = data.get("thread_ts")
-    app.client.chat_postMessage(
+    response = app.client.chat_postMessage(
         channel=data["channel"],
         text=data["text"],
         thread_ts=thread_ts,
@@ -111,6 +127,10 @@ def outbox_callback(data: dict) -> None:
     # Track this thread so future replies are processed
     if thread_ts:
         _charlie_threads.add(thread_ts)
+    # Also track new top-level messages — replies to them should be processed
+    msg_ts = response.get("ts")
+    if msg_ts:
+        _charlie_threads.add(msg_ts)
 
 
 # ── Sprint-prep monitor ─────────────────────────────────────────────
@@ -176,13 +196,25 @@ def run_scheduler() -> None:
 
     Triggers with needs_lead=true write to inbox + nudge the lead.
     The lead processes them like any Slack message and responds via outbox.
+    Fired triggers are persisted to disk so restarts don't re-fire them.
     """
     import json as _json
     from datetime import datetime as _dt
     from zoneinfo import ZoneInfo
 
-    fired_today: set[str] = set()  # trigger IDs already fired today
-    last_date: str = ""
+    fired_file = config.CHARLIE_DIR / ".scheduler-fired.json"
+
+    def _load_fired() -> tuple[str, set[str]]:
+        try:
+            data = _json.loads(fired_file.read_text())
+            return data.get("date", ""), set(data.get("ids", []))
+        except (FileNotFoundError, _json.JSONDecodeError):
+            return "", set()
+
+    def _save_fired(date: str, ids: set[str]) -> None:
+        fired_file.write_text(_json.dumps({"date": date, "ids": sorted(ids)}))
+
+    last_date, fired_today = _load_fired()
 
     while True:
         time.sleep(config.SCHEDULER_POLL_INTERVAL)
@@ -201,6 +233,7 @@ def run_scheduler() -> None:
             if today_str != last_date:
                 fired_today.clear()
                 last_date = today_str
+                _save_fired(last_date, fired_today)
 
             for trigger in schedule.get("triggers", []):
                 tid = trigger["id"]
@@ -213,6 +246,7 @@ def run_scheduler() -> None:
 
                 # Fire this trigger
                 fired_today.add(tid)
+                _save_fired(last_date, fired_today)
                 channel = config.SLACK_CHANNEL_ID
                 message = trigger["message"]
 
@@ -280,7 +314,8 @@ def main() -> None:
     # Background threads
     Thread(target=bridge.watch_outbox, args=(outbox_callback,), daemon=True).start()
     Thread(target=monitor_sprint_prep, daemon=True).start()
-    Thread(target=monitor_alerts, daemon=True).start()
+    # Alert monitor disabled — picks up false positives from tmux conversation text
+    # Thread(target=monitor_alerts, daemon=True).start()
     Thread(target=run_scheduler, daemon=True).start()
     # Pulse disabled — re-enable when needed
     # Thread(target=pulse, daemon=True).start()

@@ -25,7 +25,8 @@
       "bot_events": [
         "message.channels",
         "message.groups",
-        "message.im"
+        "message.im",
+        "app_mention"
       ]
     },
     "socket_mode_enabled": true,

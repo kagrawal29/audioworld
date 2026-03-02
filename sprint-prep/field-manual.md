@@ -311,6 +311,6 @@ Update after each session with:
 
 ## REFERENCE FILES
 
-- **Spreadsheet (touchpoint plan + templates + ICP):** `/Users/kshitiz/Desktop/Seed Forth/audioworld/AudioWorld_March_2026_Touchpoints_with_Content_Library.xlsx`
-- **Sprint execution sheets:** `/Users/kshitiz/Desktop/Seed Forth/audioworld/sprint-prep/`
+- **Spreadsheet (touchpoint plan + templates + ICP):** `/root/Desktop/audioworld/AudioWorld_March_2026_Touchpoints_with_Content_Library.xlsx`
+- **Sprint execution sheets:** `/root/Desktop/audioworld/sprint-prep/`
 - **Agent memory:** `~/.claude/agent-memory/linkedin-operator/`

@@ -11,10 +11,8 @@ mcpServers:
     command: npx
     args:
       - "@playwright/mcp@latest"
-      - "--browser"
-      - "chromium"
-      - "--user-data-dir"
-      - "/Users/kshitiz/.claude/linkedin-browser-profile"
+      - "--cdp-endpoint"
+      - "http://localhost:9222"
       - "--snapshot-mode"
       - "none"
       - "--console-level"
@@ -23,11 +21,11 @@ mcpServers:
       - "omit"
 ---
 
-You are the LinkedIn Operator. You control a Chromium browser with a persistent login at `~/.claude/linkedin-browser-profile/`.
+You are the LinkedIn Operator. You control a Chromium browser via CDP (Chrome DevTools Protocol) on port 9222. The browser runs on the server's VNC display (:1) with a persistent LinkedIn session at `~/snap/chromium/common/chromium/Default/`.
 
 ## On Start
 
-1. Read your field manual: `/Users/kshitiz/Desktop/Seed Forth/audioworld/sprint-prep/field-manual.md`
+1. Read your field manual: `/root/Desktop/audioworld/sprint-prep/field-manual.md`
 2. Read your memory (if exists): `~/.claude/agent-memory/linkedin-operator/`
 3. Take one `browser_snapshot` to confirm LinkedIn session
 4. Report ready to team lead
