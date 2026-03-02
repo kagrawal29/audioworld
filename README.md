@@ -6,13 +6,27 @@ Automated LinkedIn outreach for [Audio World](https://www.audioworld.in), a pan-
 
 Runs a daily outreach cycle on LinkedIn — connection requests, post comments, and profile visits — targeting decision-makers in segments like Ad Agencies, Corporate Video, and E-Learning.
 
+## User Experience
+
+You talk to Charlie on Slack in plain English. That's it.
+
 ```
-/prep [segment]  →  Build execution sheet (research + personalization)
-/review          →  Quality check against standards
-Approval Sheet   →  User approves/rejects each action in Google Sheets
-/sprint          →  Execute approved actions on LinkedIn
-/status          →  Check progress
+You: "Prep tomorrow's outreach for Ad Agencies"
+  → Charlie builds an execution sheet with personalized messages
+
+You: "Review it"
+  → Charlie quality-checks and creates a Google Sheet for approval
+
+You: "Looks good, go"
+  → Charlie executes only the approved actions on LinkedIn
+
+You: "How's it going?"
+  → Charlie gives you a live status update
 ```
+
+No commands to memorize. No dashboards to check. You chat on Slack, Charlie handles the rest — research, personalization, execution, reporting. You approve what goes out, Charlie does the work.
+
+You can also watch the browser live via VNC as the operator works LinkedIn in real time.
 
 ## Architecture
 
