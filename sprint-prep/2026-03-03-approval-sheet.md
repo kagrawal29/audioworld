@@ -32,6 +32,7 @@
 | 20 | Swadheen Sharma | Producer | XP&D | *(3rd+ connection — plain Connect only, no personalized note possible)* | | |
 | 21 | [Rishu Kumar](https://www.linkedin.com/in/rishu21/) | — | AnimateSimply | Hi Rishu — AnimateSimply's e-learning animated videos are impressive. I'm Antara from The Audio World — we do multilingual VO & dubbing perfect for animated and e-learning content. Let's connect. | | WARM LEAD |
 | 22 | [Siddhesh Dalvi](https://www.linkedin.com/in/siddhesh-dalvi-2a76938/) | — | OTT Campaigns (Netflix/Amazon) | Hi Siddhesh — your OTT work with Netflix and Amazon in regional language content aligns perfectly. I head The Audio World — we do multilingual VO & dubbing for OTT and entertainment. Let's connect. | | WARM LEAD |
+| 23 | Divya Sharda | Dubbing Artist | Freelance / Mayukhi In Sync | Hi Divya — loved your work on "Accused" for Netflix. I'm Antara from The Audio World — saw you're looking for VO artists for children's audio stories. We have a great roster and would love to collaborate. Let's connect. | | HOT LEAD — actively hiring VO artists |
 
 ---
 
