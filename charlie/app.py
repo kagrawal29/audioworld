@@ -274,9 +274,9 @@ def run_scheduler() -> None:
 # ── Keep-alive ──────────────────────────────────────────────────────
 
 def pulse() -> None:
-    """Send a heartbeat to the lead pane every 10 minutes to prevent idle timeout."""
+    """Send a heartbeat to the lead pane every hour to prevent idle timeout."""
     while True:
-        time.sleep(600)  # 10 minutes
+        time.sleep(3600)  # 1 hour
         try:
             if bridge.is_lead_alive():
                 bridge.send_to_lead_raw("pulse")
@@ -313,7 +313,7 @@ def main() -> None:
 
     # Background threads
     Thread(target=bridge.watch_outbox, args=(outbox_callback,), daemon=True).start()
-    Thread(target=monitor_sprint_prep, daemon=True).start()
+    # Thread(target=monitor_sprint_prep, daemon=True).start()  # Disabled: posts local file names to Slack
     # Alert monitor disabled — picks up false positives from tmux conversation text
     # Thread(target=monitor_alerts, daemon=True).start()
     Thread(target=run_scheduler, daemon=True).start()
@@ -324,7 +324,7 @@ def main() -> None:
     print(f"  Sprint-prep monitor: polling every {config.FILE_POLL_INTERVAL}s")
     print(f"  Alert monitor: polling every {config.ALERT_POLL_INTERVAL}s")
     print(f"  Scheduler: checking every {config.SCHEDULER_POLL_INTERVAL}s")
-    print(f"  Pulse: every 600s")
+    print(f"  Pulse: disabled")
     print(f"  tmux target: {config.TMUX_LEAD_TARGET}")
     print("  Connecting to Slack via Socket Mode...")
 

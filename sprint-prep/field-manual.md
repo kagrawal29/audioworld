@@ -14,8 +14,9 @@ Read this at the start of every session. This is your playbook.
 
 ### Connection requests
 - Personalize every note using their specific work, not just company name
-- Max 300 characters (LinkedIn limit for connection notes)
-- 2nd-degree: personalized note. 3rd+: may only allow plain connect, note this.
+- Max 200 characters (LinkedIn limit for connection notes — verified 2026-03-03)
+- FREE accounts get only ~5 personalized invites per month. Use them on highest-value leads only. All other CRs go out as plain Connect (no note).
+- 2nd-degree: personalized note (if invites remain). 3rd+: may only allow plain connect, note this.
 - Apply humaniser rules (see below) to every note. No AI-sounding language.
 
 ### Comments  -  MUST be on actual posts
