@@ -17,6 +17,14 @@
       "needs_lead": true
     },
     {
+      "id": "morning-inbox-check",
+      "name": "Morning LinkedIn inbox check",
+      "time": "09:00",
+      "days": ["mon", "tue", "wed", "thu", "fri"],
+      "message": "[SCHEDULED] Morning inbox check — Spawn the operator to check Antara's LinkedIn messaging inbox (linkedin.com/messaging/). Report: (1) Any new replies to our DMs, (2) Any new messages from outreach targets, (3) Any connection acceptances. Only look at messages relevant to our outreach — ignore spam/promotions. Do NOT reply to anything — just report findings. Also check if any DMs sent 3-4+ days ago have gone unanswered and flag them for follow-up.",
+      "needs_lead": true
+    },
+    {
       "id": "morning-briefing",
       "name": "Morning sprint briefing",
       "time": "09:30",
@@ -33,6 +41,14 @@
       "needs_lead": true
     }
     ,
+    {
+      "id": "biweekly-email-report",
+      "name": "Biweekly email report",
+      "time": "18:30",
+      "days": ["wed", "sat"],
+      "message": "[SCHEDULED] Biweekly email report — Send a summary email to kagrawal29@gmail.com (TO) and sharma.ack@gmail.com (CC) via Gmail MCP. Include: (1) Total touchpoints this period, category-wise (CRs, DMs, comments, reactions, profile visits, follows), (2) Accepted connections count and names, (3) Reactions/engagement on our activity, (4) Leads in pipeline and their stages, (5) Link to the full tracker sheet, (6) Upcoming plan for next sprint days. Keep it professional and concise.",
+      "needs_lead": true
+    },
     {
       "id": "daily-git-push",
       "name": "Daily git push",

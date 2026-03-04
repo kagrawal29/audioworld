@@ -20,6 +20,32 @@ def _random_id() -> str:
     return f"msg-{int(time.time())}-{suffix}"
 
 
+
+def _resolve_lead_pane() -> str:
+    """Resolve the current pane target for the lead window dynamically.
+
+    Uses tmux list-panes to get the active pane ID, falling back to
+    {session}:{window}.0 if the command fails.
+    """
+    session = config.TMUX_LEAD_SESSION
+    window = config.TMUX_LEAD_WINDOW
+    target = f"{session}:{window}"
+    try:
+        result = subprocess.run(
+            ["tmux", "list-panes", "-t", target, "-F", "#{pane_id}"],
+            capture_output=True,
+            text=True,
+            timeout=5,
+        )
+        if result.returncode == 0 and result.stdout.strip():
+            # Return the first (usually only) pane
+            return result.stdout.strip().split("\n")[0]
+    except (subprocess.TimeoutExpired, OSError):
+        pass
+    # Fallback: use window.pane_index notation
+    return f"{target}.0"
+
+
 def log_exchange(direction: str, user: str, text: str, msg_id: str,
                  channel: str = "", thread_ts: str = "") -> None:
     """Append an exchange to the daily JSONL log."""
@@ -62,7 +88,7 @@ def send_to_lead(msg_id: str) -> None:
     Claude Code's TUI treats Enter as 'submit', not 'newline inside paste'.
     """
     cmd = f"Process Slack message from charlie/inbox/{msg_id}.json"
-    target = config.TMUX_LEAD_TARGET
+    target = _resolve_lead_pane()
     # Send text literally (no key-name interpretation)
     subprocess.run(["tmux", "send-keys", "-t", target, "-l", cmd], check=True)
     # Small delay lets the TUI finish processing the pasted text
@@ -74,7 +100,7 @@ def send_to_lead(msg_id: str) -> None:
 def send_to_lead_raw(text: str) -> None:
     """Send raw text to the lead's tmux pane without writing an inbox file.
     Used for keep-alive pings and lightweight nudges."""
-    target = config.TMUX_LEAD_TARGET
+    target = _resolve_lead_pane()
     subprocess.run(["tmux", "send-keys", "-t", target, "-l", text], check=True)
     time.sleep(0.3)
     subprocess.run(["tmux", "send-keys", "-t", target, "Enter"], check=True)
@@ -111,7 +137,7 @@ def watch_outbox(callback: Callable[[dict], None]) -> None:
 
 def capture_lead_output(lines: int = 50) -> str:
     """Capture recent output from the lead's tmux pane, stripped of ANSI codes."""
-    target = config.TMUX_LEAD_TARGET
+    target = _resolve_lead_pane()
     result = subprocess.run(
         ["tmux", "capture-pane", "-t", target, "-p", f"-S", f"-{lines}"],
         capture_output=True,
@@ -123,7 +149,7 @@ def capture_lead_output(lines: int = 50) -> str:
 
 def is_lead_alive() -> bool:
     """Check if the tmux session hosting the lead is still running."""
-    session = config.TMUX_LEAD_TARGET.split(":")[0]
+    session = config.TMUX_LEAD_SESSION
     result = subprocess.run(
         ["tmux", "has-session", "-t", session],
         capture_output=True,

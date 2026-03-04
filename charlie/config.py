@@ -12,8 +12,9 @@ LOGS_DIR = CHARLIE_DIR / "logs"
 SCHEDULE_FILE = CHARLIE_DIR / "schedule.json"
 SPRINT_PREP_DIR = PROJECT_ROOT / "sprint-prep"
 
-# tmux — the lead runs in an existing tmux session
-TMUX_LEAD_TARGET = os.getenv("CHARLIE_TMUX_TARGET", "audioworld:0.0")
+# tmux — resolved dynamically at send time (see bridge._resolve_lead_pane)
+TMUX_LEAD_SESSION = os.getenv("CHARLIE_TMUX_SESSION", "audioworld")
+TMUX_LEAD_WINDOW = os.getenv("CHARLIE_TMUX_WINDOW", "lead")
 
 # Slack
 SLACK_BOT_TOKEN = os.getenv("SLACK_BOT_TOKEN")

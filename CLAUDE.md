@@ -87,16 +87,15 @@ curl -s http://localhost:9222/json/version
 
 ### Phase 2: Charlie (Slack Bridge)
 
-1. Verify tmux pane routing:
+1. Verify Charlie config:
 ```bash
-echo "My pane: $TMUX_PANE"
-grep CHARLIE_TMUX_TARGET /root/Desktop/audioworld/charlie/.env
+grep CHARLIE_TMUX /root/Desktop/audioworld/charlie/.env
 ```
-These MUST match. If they don't, update the `.env` file.
+Should show `CHARLIE_TMUX_SESSION=audioworld` and `CHARLIE_TMUX_WINDOW=lead`. Charlie resolves the actual pane ID dynamically at send time -- no manual pane matching needed.
 
 2. Check if Charlie is running:
 ```bash
-tmux capture-pane -t %1 -p | tail -5
+systemctl is-active audioworld-charlie
 ```
 If not running or crashed, start it (use `-l` flag then separate Enter):
 ```bash
@@ -502,7 +501,47 @@ When sending text + Enter to a Claude Code pane, **never send them in one comman
 ## Server Maintenance
 
 - **Full rebuild guide:** See `SETUP.md` for complete server provisioning from scratch (VNC, proxy, Chromium, Charlie, MCP, tmux, agent teams).
-- **Reboot recovery:** VNC and noVNC auto-start via systemd. Charlie and Chromium need manual restart (covered in startup ritual above).
+- **Reboot recovery:** VNC, noVNC, Charlie, Chromium, and watchdog all auto-start via systemd. Check with `systemctl status audioworld-charlie audioworld-chromium audioworld-watchdog`.
 - **Disk space:** Monitor with `df -h`. Chromium profile and logs can grow. Clean old logs monthly.
 - **LinkedIn session:** Persists in Chromium profile on disk. If it expires, user must re-login via noVNC GUI.
 - **Updates:** `cd /root/Desktop/audioworld && git pull` to get latest code changes.
+
+## Operator Crash Recovery
+
+Operators run as Task subagents (background processes within Claude Code), not as separate tmux panes. This means:
+
+- Operator crashes do NOT affect tmux pane IDs
+- Charlie's routing to the lead pane stays stable regardless of operator lifecycle
+- No manual pane cleanup needed after operator failure
+
+If an operator subagent fails mid-task:
+1. Do NOT spawn a new operator immediately. Wait 10 seconds for cleanup.
+2. Check what the operator last completed (read sprint-prep logs, check Google Sheet actuals).
+3. Re-spawn the operator with instructions to resume from the last completed action, not from scratch.
+4. If the same failure repeats, log the error pattern and notify the user via Slack.
+
+## Inbox Polling Fallback
+
+As a belt-and-suspenders measure, poll the inbox directory every 30 seconds:
+```bash
+ls /root/Desktop/audioworld/charlie/inbox/*.json 2>/dev/null
+```
+If files exist that are older than 60 seconds, they may have been missed by the normal tmux nudge. Process them directly.
+
+This handles edge cases where Charlie wrote an inbox file but the tmux send-keys nudge was lost (e.g., Claude Code was mid-output and the input was swallowed).
+
+## Service Management (systemd)
+
+All persistent services run under systemd with memory limits:
+
+| Service | Unit | MemoryMax | Check | Restart |
+|---------|------|-----------|-------|---------|
+| Charlie (Slack bridge) | `audioworld-charlie` | 256M | `systemctl status audioworld-charlie` | `systemctl restart audioworld-charlie` |
+| Chromium (LinkedIn) | `audioworld-chromium` | 2G | `systemctl status audioworld-chromium` | `systemctl restart audioworld-chromium` |
+| Watchdog | `audioworld-watchdog` | 64M | `systemctl status audioworld-watchdog` | `systemctl restart audioworld-watchdog` |
+| Project slice | `audioworld.slice` | 6G total | `systemd-cgtop` | n/a |
+
+The watchdog monitors the Claude Code lead process. If dead for 2+ minutes, it restarts Claude Code and drops an alert into Charlie's inbox.
+
+Logs: `journalctl -u audioworld-charlie -n 50` (replace unit name as needed).
+
