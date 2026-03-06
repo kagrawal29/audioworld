@@ -15,7 +15,7 @@ Personalized CR limit exhausted (0 of 5 remaining). Plain CRs get silently remov
 
 | # | Name | Company | Message | Approval | Comments |
 |---|------|---------|---------|----------|----------|
-| 1 | Satyam Aggarwal | Independent | RE-SEND (failed Mar 4): "Thanks for connecting, Satyam. I am Antara from The Audio World. We deliver multilingual VO and dubbing for production houses and agencies across India. With your background in ad films and brand content, I think there could be overlap. Happy to share our reel if useful." | | |
+| 1 | Satyam Aggarwal | Independent | RE-SEND (failed Mar 4): "Thanks for connecting, Satyam. I am Antara from The Audio World. We deliver multilingual VO and dubbing for production houses and agencies across India. With your background in ad films and brand content, I think there could be overlap. Do you handle voiceover in-house or with external partners?" | | |
 | 2 | Vishal Yoman | Kalpanik Films | NEW (just accepted today): "Thanks for connecting, Vishal. I am Antara from The Audio World. We handle multilingual VO and dubbing for production houses and studios. Your work with GenAI filmmaking at Kalpanik is interesting. As AI speeds up the visual side, the audio and voice layer becomes even more important to get right. Happy to be in your network." | | |
 | 3 | Vivek Menon | Run & Gun Films | SKIP — only 1 day since first DM. Will follow up after 3+ days. | AUTO-SKIP | |
 

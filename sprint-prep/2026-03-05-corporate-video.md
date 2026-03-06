@@ -28,7 +28,7 @@ Antara's free LinkedIn account allows approximately 5 personalized connection re
 - **LinkedIn:** https://www.linkedin.com/in/satyam-aggarwal-22406591/
 - **Connection date:** March 3, 2026
 - **DM text:**
-> Thanks for connecting, Satyam. I am Antara from The Audio World. We deliver multilingual VO and dubbing for production houses and agencies across India. With your background in ad films and brand content, I think there could be overlap. Happy to share our reel if useful.
+> Thanks for connecting, Satyam. I am Antara from The Audio World. We deliver multilingual VO and dubbing for production houses and agencies across India. With your background in ad films and brand content, I think there could be overlap. Do you handle voiceover in-house or with external partners?
 
 ### DM-02: Vishal Yoman (NEW connection, just accepted today)
 - **Title:** Founder and CEO, Kalpanik Films, GenAI Studio Pioneer, Film Director
