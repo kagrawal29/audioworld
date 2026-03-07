@@ -1,13 +1,14 @@
 # Sprint Execution Sheet — March 7, 2026 (Saturday)
 ## Segment: Ad Agencies + VO/Dubbing Industry
-## Status: PENDING APPROVAL
+## Status: APPROVED (Mar 7 — with 6 plain CRs added per user)
 
 ---
 
 **Account:** Antara Goswami (Director, The Audio World) — FREE account
 **Personalized invites remaining:** 0 (limit exhausted for the month)
-**Connection Requests:** 0 (plain CRs get silently removed by LinkedIn spam filter on free accounts)
-**Focus:** Engagement actions only — comments, likes, follows, profile visits, DMs, incoming CR accepts
+**Connection Requests:** 6 plain CRs (TEST — monitoring if LinkedIn removes them again)
+**Focus:** Engagement + plain CR test — comments, likes, follows, profile visits, DMs, incoming CR accepts
+**CR test protocol:** Spread CRs across the sprint (not batched), 3-5 min between each CR. Monitor next 24-48h.
 
 ---
 
@@ -63,7 +64,22 @@ No new acceptances detected.
 
 ---
 
-## 3. COMMENTS ON REAL POSTS (8)
+## 3. CONNECTION REQUESTS — PLAIN (6, TEST)
+
+All plain Connect (no note). Spread across the sprint with 3-5 min gaps. We're testing whether LinkedIn removes them again like Mar 4.
+
+| # | Name | Title | Company | LinkedIn URL |
+|---|------|-------|---------|-------------|
+| 1 | Sarika Sharma | Founder, EchoBridge Studio | EchoBridge Studio | https://www.linkedin.com/in/sarikasharma06/ |
+| 2 | Reshma Shikarwar | Language Producer, Global Localization | Prime Video & Amazon MGM Studios | https://www.linkedin.com/in/reshma-shikarwar-51373719/ |
+| 3 | Kinjal Chakraborty | CEO & Founder | K P Audio Productions | https://www.linkedin.com/in/kinjal-chakraborty-805a41279/ |
+| 4 | PREET SINGH TEJ | Founder | Absolute Media Dubbing & Post Production | https://www.linkedin.com/in/absolutemedia/ |
+| 5 | Bishnu Biswajit Pasi | Founder & Production Head | Shri Baikunth Studio | https://www.linkedin.com/in/bishnu-biswajit-pasi-60a799294/ |
+| 6 | Kabbir Arora | Producer, Founder | Kabbir Arora Films | https://www.linkedin.com/in/kabbir-arora-849b6b29b/ |
+
+---
+
+## 4. COMMENTS ON REAL POSTS (8)
 
 | # | Target Person | Title | Profile URL | Post URL | Post Summary | Existing Comment Vibe | Comment to Post |
 |---|---------------|-------|------------|----------|-------------|----------------------|-----------------|
@@ -135,7 +151,9 @@ Note: Reactions 11-12 are opportunistic. While browsing between actions, like an
 
 ---
 
-## 7. EXECUTION ORDER
+## 8. EXECUTION ORDER
+
+CRs are spread across the sprint (marked with ★). 3-5 min gap after each CR.
 
 | Step | Action | Target | Wait After |
 |------|--------|--------|-----------|
@@ -145,76 +163,83 @@ Note: Reactions 11-12 are opportunistic. While browsing between actions, like an
 | 4 | DM (follow-up) | Vivek Menon | 3-5 min |
 | 5 | Like | Lakshya Bhatnagar post | 30s |
 | — | **BREAK** | | **5-8 min** |
-| 6 | Profile Visit | F. Nadeem Baig | 45-90s scroll |
-| 7 | Follow | F. Nadeem Baig | 30s |
+| 6 | Profile Visit | Sarika Sharma | 45-90s scroll |
+| 7 | ★ Plain CR | Sarika Sharma (CR-01) | **3-5 min** |
 | 8 | Comment | Lakshya Bhatnagar post | 2-3 min |
 | 9 | Like | Mohit Sharma post | 30s |
-| 10 | Profile Visit | Sarika Sharma | 45-90s scroll |
+| 10 | Profile Visit | F. Nadeem Baig | 45-90s scroll |
 | — | **BREAK** | | **5-8 min** |
-| 11 | Follow | Sarika Sharma | 30s |
+| 11 | Follow | F. Nadeem Baig | 30s |
 | 12 | Comment | Mohit Sharma post | 2-3 min |
 | 13 | DM (intro) | Tanya Nambiar | 3-5 min |
-| 14 | Like (Insightful) | Ashish Singh post | 30s |
-| 15 | Profile Visit | Kabbir Arora | 45-90s scroll |
+| 14 | Profile Visit | Reshma Shikarwar | 45-90s scroll |
+| 15 | ★ Plain CR | Reshma Shikarwar (CR-02) | **3-5 min** |
 | — | **BREAK** | | **5-8 min** |
-| 16 | Comment | Ashish Singh post | 2-3 min |
-| 17 | Follow | RITIKA BAJAJ | 30s |
-| 18 | Like | RITIKA BAJAJ post | 30s |
-| 19 | Comment | RITIKA BAJAJ post | 2-3 min |
-| 20 | Profile Visit | Santanu Chakraborty | 45-90s scroll |
+| 16 | Like (Insightful) | Ashish Singh post | 30s |
+| 17 | Comment | Ashish Singh post | 2-3 min |
+| 18 | Follow | RITIKA BAJAJ | 30s |
+| 19 | Like | RITIKA BAJAJ post | 30s |
+| 20 | Comment | RITIKA BAJAJ post | 2-3 min |
 | — | **BREAK** | | **5-8 min** |
-| 21 | Like | GOKUL DAS post | 30s |
-| 22 | Follow | GOKUL DAS | 30s |
-| 23 | Comment | GOKUL DAS post | 2-3 min |
-| 24 | Profile Visit | Reshma Shikarwar | 45-90s scroll |
-| 25 | Follow | Reshma Shikarwar | 30s |
+| 21 | Profile Visit | Kinjal Chakraborty | 45-90s scroll |
+| 22 | ★ Plain CR | Kinjal Chakraborty (CR-03) | **3-5 min** |
+| 23 | Like | GOKUL DAS post | 30s |
+| 24 | Follow | GOKUL DAS | 30s |
+| 25 | Comment | GOKUL DAS post | 2-3 min |
 | — | **BREAK** | | **5-8 min** |
-| 26 | Like (Celebrate) | Darby Dorras post | 30s |
-| 27 | Follow | Darby Dorras | 30s |
-| 28 | Comment | Darby Dorras post | 2-3 min |
-| 29 | Profile Visit | Abrar Shaikh | 45-90s scroll |
-| 30 | Like | Barathraj Ravidass post | 30s |
+| 26 | Profile Visit | PREET SINGH TEJ | 45-90s scroll |
+| 27 | ★ Plain CR | PREET SINGH TEJ (CR-04) | **3-5 min** |
+| 28 | Like (Celebrate) | Darby Dorras post | 30s |
+| 29 | Follow | Darby Dorras | 30s |
+| 30 | Comment | Darby Dorras post | 2-3 min |
 | — | **BREAK** | | **5-8 min** |
-| 31 | Comment | Barathraj Ravidass post | 2-3 min |
-| 32 | Follow | Barathraj Ravidass | 30s |
-| 33 | Profile Visit | Bishnu Biswajit Pasi | 45-90s scroll |
-| 34 | Like (Celebrate) | Priyamvada K post | 30s |
-| 35 | Comment | Priyamvada K post | 2-3 min |
+| 31 | Profile Visit | Bishnu Biswajit Pasi | 45-90s scroll |
+| 32 | ★ Plain CR | Bishnu Biswajit Pasi (CR-05) | **3-5 min** |
+| 33 | Like | Barathraj Ravidass post | 30s |
+| 34 | Comment | Barathraj Ravidass post | 2-3 min |
+| 35 | Follow | Barathraj Ravidass | 30s |
 | — | **BREAK** | | **5-8 min** |
-| 36 | Follow | Ashish Singh | 30s |
-| 37 | Profile Visit | Kinjal Chakraborty | 45-90s scroll |
-| 38 | Follow | Aditya Srivastava | 30s |
-| 39 | Like | Aditya Srivastava post | 30s |
-| 40 | Profile Visit | Shrinath Prabhu | 45-90s scroll |
+| 36 | Profile Visit | Kabbir Arora | 45-90s scroll |
+| 37 | ★ Plain CR | Kabbir Arora (CR-06) | **3-5 min** |
+| 38 | Like (Celebrate) | Priyamvada K post | 30s |
+| 39 | Comment | Priyamvada K post | 2-3 min |
+| 40 | Follow | Ashish Singh | 30s |
 | — | **BREAK** | | **5-8 min** |
-| 41 | Follow | Lakshya Bhatnagar | 30s |
-| 42 | Profile Visit | PREET SINGH TEJ | 45-90s scroll |
-| 43 | Like | Neelesh Misra post | 30s |
-| 44 | Profile Visit | Ramgopal Shankaraman | 45-90s scroll |
-| 45 | Profile Visit | Rhea Mahule | 45-90s scroll |
-| 46 | Like (feed browse) | Any relevant post seen while browsing | 30s |
-| 47 | Like (feed browse) | Any relevant post seen while browsing | 30s |
+| 41 | Profile Visit | Santanu Chakraborty | 45-90s scroll |
+| 42 | Follow | Sarika Sharma | 30s |
+| 43 | Follow | Reshma Shikarwar | 30s |
+| 44 | Profile Visit | Abrar Shaikh | 45-90s scroll |
+| 45 | Follow | Aditya Srivastava | 30s |
+| — | **BREAK** | | **5-8 min** |
+| 46 | Like | Aditya Srivastava post | 30s |
+| 47 | Follow | Lakshya Bhatnagar | 30s |
+| 48 | Profile Visit | Ramgopal Shankaraman | 45-90s scroll |
+| 49 | Profile Visit | Rhea Mahule | 45-90s scroll |
+| 50 | Profile Visit | Shrinath Prabhu | 45-90s scroll |
+| 51 | Like | Neelesh Misra post | 30s |
+| 52 | Like (feed browse) | Any relevant post seen while browsing | 30s |
+| 53 | Like (feed browse) | Any relevant post seen while browsing | 30s |
 
 ---
 
-## 8. DAILY LIMITS CHECK
+## 9. DAILY LIMITS CHECK
 
 | Action | Planned | Daily Limit | Status |
 |--------|---------|-------------|--------|
-| Connection Requests | 0 | 20/day | OK (limit exhausted for month) |
+| Connection Requests (plain, TEST) | 6 | 20/day | OK |
 | Accept incoming CRs | 3 | n/a | OK |
 | DMs | 2 | 25/day | OK |
 | Comments | 8 | 15/day | OK |
 | Profile Visits | 12 | 30/day | OK |
 | Follows | 10 | ~30/day | OK |
 | Post Reactions | 12 | ~50/day | OK |
-| **Total Touchpoints** | **47** | | OK |
+| **Total Touchpoints** | **53** | | OK |
 
 ---
 
-## 9. NOTES FOR OPERATOR
+## 10. NOTES FOR OPERATOR
 
-1. **No CRs this sprint.** Personalized invites are exhausted for the month. Plain CRs get silently removed by LinkedIn spam filter on free accounts. Focus entirely on engagement.
+1. **6 plain CRs (TEST).** We're testing whether LinkedIn still removes plain CRs when spread across the session (not batched). Visit each profile BEFORE sending the CR. Wait 3-5 min after each CR. Do NOT batch them together. Screenshot the sent invitations page at the end.
 2. **Accept 3 incoming CRs first.** Tanya Nambiar is a VO artist, directly in our industry. Send her an intro DM right after accepting.
 3. **Vivek Menon follow-up.** This is the first follow-up (our DM was Mar 4, 3 days ago). Keep it soft and low-pressure.
 4. **Suuresh Ramachandran: CLOSED.** He politely declined. Do not follow up.

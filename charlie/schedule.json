@@ -25,6 +25,14 @@
       "needs_lead": true
     },
     {
+      "id": "job-scout",
+      "name": "LinkedIn job opportunity scout",
+      "time": "09:15",
+      "days": ["mon", "tue", "wed", "thu", "fri"],
+      "message": "[SCHEDULED] Job scout — Spawn the operator to search LinkedIn Jobs for relevant opportunities. Search keywords: \"voiceover\", \"dubbing\", \"voice actor\", \"localization\", \"audio production\" — filtered to India. For each relevant listing, note: job title, company, location, key details, and the hiring manager/poster if visible. Flag companies posting these jobs as potential outreach leads (buying signal). Post a summary on Slack — only include genuinely relevant listings, skip irrelevant matches. If nothing new, skip the post.",
+      "needs_lead": true
+    },
+    {
       "id": "morning-briefing",
       "name": "Morning sprint briefing",
       "time": "09:30",
