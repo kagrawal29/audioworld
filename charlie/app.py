@@ -325,7 +325,7 @@ def main() -> None:
     print(f"  Alert monitor: polling every {config.ALERT_POLL_INTERVAL}s")
     print(f"  Scheduler: checking every {config.SCHEDULER_POLL_INTERVAL}s")
     print(f"  Pulse: disabled")
-    print(f"  tmux target: {config.TMUX_LEAD_TARGET}")
+    print(f"  tmux target: {config.TMUX_LEAD_SESSION}:{config.TMUX_LEAD_WINDOW}")
     print("  Connecting to Slack via Socket Mode...")
 
     attempt = 0
