@@ -1,60 +1,43 @@
 {
   "triggers": [
     {
-      "id": "evening-actuals",
-      "name": "Evening actuals update",
-      "time": "18:00",
+      "id": "monday-weekly-review",
+      "name": "Monday weekly performance review",
+      "time": "08:30",
+      "days": ["mon"],
+      "message": "[SCHEDULED] Monday Weekly Review Session — Execute ALL steps sequentially:\n\nSTEP 1: WEEKLY PERFORMANCE REVIEW\n- Total touchpoints (CRs, DMs, comments) vs target last week\n- Month-to-date progress vs 50% overdelivery goal\n- Connection acceptance rate\n- DM response rate\n\nSTEP 2: PIPELINE HEALTH\n- Lead_CRM stage movements (who moved forward, who's stuck)\n- Leads going cold (5+ days no response)\n- Any leads needing Antara's intervention → IMMEDIATELY email + Slack\n\nSTEP 3: FUNNEL INTELLIGENCE\n- Update sprint-prep/funnel-intelligence.md with:\n  - Profile patterns that respond (title, segment, company type)\n  - Template effectiveness (which messages got replies)\n  - Drop analysis (where leads stall, why)\n  - Predictive signals for this week\n\nSTEP 4: STRATEGY RECOMMENDATIONS\n- Segment prioritization for this week\n- Template adjustments\n- Volume target adjustments\n- Post full review to Slack",
+      "needs_lead": true
+    },
+    {
+      "id": "morning-session",
+      "name": "Morning session: inbox → scout → prep → sprint",
+      "time": "09:00",
       "days": ["mon", "tue", "wed", "thu", "fri"],
-      "message": "[SCHEDULED] Evening update — reconcile today's sprint actuals in the spreadsheet and share a summary with the user.",
+      "message": "[SCHEDULED] Morning Session — Execute ALL steps sequentially:\n\nSTEP 1: INBOX CHECK\n- Spawn operator to check Antara's LinkedIn messaging (linkedin.com/messaging/)\n- Report: new replies, new messages, connection acceptances, DMs unanswered 3-4+ days\n- Check notifications for engagement on our posts/comments\n- Do NOT reply — just report\n- If any lead shows meeting interest or shares contact info → flag URGENT for immediate escalation (email kagrawal29@gmail.com + sharma.ack@gmail.com, post on Slack)\n\nSTEP 2: RESEARCH SCOUT (Mon/Wed/Fri only — skip on Tue/Thu)\n- Job scout: LinkedIn Jobs for 'voiceover', 'dubbing', 'localization' in India\n- Group scan: Check joined VO/dubbing groups for direct requirements\n- Flag buying signals and direct requirements as URGENT\n\nSTEP 3: CATCH-UP CHECK\n- Find last completed sprint date (check sprint-prep/screenshots/)\n- Compare with spreadsheet plan for missed days\n- If days were missed: calculate adjusted daily target for 50% overdelivery by month end\n\nSTEP 4: AUTO-PREP\n- Read today's segment from spreadsheet\n- Read ICP details + templates\n- Calculate volume targets (adjusted for catch-up if needed)\n- Dedup against Lead_CRM\n- Build execution sheet at sprint-prep/YYYY-MM-DD-segment.md\n\nSTEP 5: SELF-REVIEW\n- No placeholders — all names, URLs, messages are real\n- Actual posts for comments — verified current LinkedIn posts\n- Personalized messages — beyond just company name\n- Dedup check — no re-touching pipeline leads\n- Volume check — within LinkedIn safe limits\n- Fix any issues. Mark READY if all pass.\n\nSTEP 6: AUTO-SPRINT\n- Spawn operator with sprint instructions\n- Execute all touchpoints\n- Touchpoints that count: CRs, DMs, comments ONLY\n- Profile visits, likes, follows are supporting actions\n\nSTEP 7: POST-SPRINT SUMMARY\n- Summarize results: touchpoints (CRs, DMs, comments) + supporting actions\n- Update Lead_CRM with new touches + stage movements\n- Update tracker sheet actuals\n- Update funnel intelligence with response patterns\n- Check month-to-date vs 50% overdelivery goal\n- Post morning summary to Slack (ONE message covering all steps)",
+      "needs_lead": true
+    },
+    {
+      "id": "evening-session",
+      "name": "Evening session: reconcile → lead pulse → escalate",
+      "time": "17:30",
+      "days": ["mon", "tue", "wed", "thu", "fri"],
+      "message": "[SCHEDULED] Evening Session — Execute ALL steps sequentially:\n\nSTEP 1: SPRINT RECONCILIATION\n- Verify today's sprint actuals are in the spreadsheet\n- If not updated during morning session, update now\n\nSTEP 2: LEAD PULSE\n- Review all active leads in Lead_CRM\n- Check for stage movements since morning\n- Update Days_Since_Last_Touch\n- Flag leads going cold (5+ days no response)\n\nSTEP 3: FUNNEL INTELLIGENCE UPDATE\n- Record any new patterns from today's activities\n- Note which profiles/templates performed\n\nSTEP 4: ESCALATION CHECK\n- Any leads needing Antara's intervention?\n- If yes: IMMEDIATELY email kagrawal29@gmail.com (TO) + sharma.ack@gmail.com (CC)\n- Post same update on Slack\n\nSTEP 5: EVENING SUMMARY\n- Post to Slack: today's results + pipeline movements + escalations + month-to-date progress",
       "needs_lead": true
     },
     {
       "id": "friday-next-week",
-      "name": "Next week plan check",
+      "name": "Friday next week plan",
       "time": "17:00",
       "days": ["fri"],
-      "message": "[SCHEDULED] Friday check — review next week's outreach plan in the spreadsheet. Flag any days without prep sheets. Suggest segments to prioritize.",
+      "message": "[SCHEDULED] Friday Review — Review next week's outreach plan. For each day: segment, volume targets, any prep needed. Flag days without prep sheets. Compare this week's performance. Suggest strategy adjustments. Post to Slack.",
       "needs_lead": true
     },
-    {
-      "id": "morning-inbox-check",
-      "name": "Morning LinkedIn inbox check",
-      "time": "09:00",
-      "days": ["mon", "tue", "wed", "thu", "fri"],
-      "message": "[SCHEDULED] Morning inbox check — Spawn the operator to check Antara's LinkedIn messaging inbox (linkedin.com/messaging/). Report: (1) Any new replies to our DMs, (2) Any new messages from outreach targets, (3) Any connection acceptances. Only look at messages relevant to our outreach — ignore spam/promotions. Do NOT reply to anything — just report findings. Also check if any DMs sent 3-4+ days ago have gone unanswered and flag them for follow-up.",
-      "needs_lead": true
-    },
-    {
-      "id": "job-scout",
-      "name": "LinkedIn job opportunity scout",
-      "time": "09:15",
-      "days": ["mon", "tue", "wed", "thu", "fri"],
-      "message": "[SCHEDULED] Job scout — Spawn the operator to search LinkedIn Jobs for relevant opportunities. Search keywords: \"voiceover\", \"dubbing\", \"voice actor\", \"localization\", \"audio production\" — filtered to India. For each relevant listing, note: job title, company, location, key details, and the hiring manager/poster if visible. Flag companies posting these jobs as potential outreach leads (buying signal). Post a summary on Slack — only include genuinely relevant listings, skip irrelevant matches. If nothing new, skip the post.",
-      "needs_lead": true
-    },
-    {
-      "id": "morning-briefing",
-      "name": "Morning sprint briefing",
-      "time": "09:30",
-      "days": ["mon", "tue", "wed", "thu", "fri"],
-      "message": "[SCHEDULED] Morning briefing — check if today's execution sheet is approved. If yes, remind the user it's ready to sprint. If not, nudge for approval.",
-      "needs_lead": true
-    },
-    {
-      "id": "post-sprint-summary",
-      "name": "Post-sprint summary",
-      "time": "13:00",
-      "days": ["mon", "tue", "wed", "thu", "fri"],
-      "message": "[SCHEDULED] Post-sprint check — if a sprint ran today, summarize results (sent/failed/skipped) and update the spreadsheet actuals.",
-      "needs_lead": true
-    }
-    ,
     {
       "id": "biweekly-email-report",
       "name": "Biweekly email report",
       "time": "18:30",
       "days": ["wed", "sat"],
-      "message": "[SCHEDULED] Biweekly email report — Send a summary email to kagrawal29@gmail.com (TO) and sharma.ack@gmail.com (CC) via Gmail MCP. Include: (1) Total touchpoints this period, category-wise (CRs, DMs, comments, reactions, profile visits, follows), (2) Accepted connections count and names, (3) Reactions/engagement on our activity, (4) Leads in pipeline and their stages, (5) Link to the full tracker sheet, (6) Upcoming plan for next sprint days. Keep it professional and concise.",
+      "message": "[SCHEDULED] Biweekly email — Send narrative-style email to kagrawal29@gmail.com (TO) and sharma.ack@gmail.com (CC) via Gmail MCP. Lead with insights/story, not status dump. Include: touchpoints, pipeline movements, hot leads, what's working, strategy adjustments, tracker link, upcoming plan.",
       "needs_lead": true
     },
     {
@@ -62,7 +45,7 @@
       "name": "Daily git push",
       "time": "23:00",
       "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
-      "message": "[SCHEDULED] Daily git push — review all changes made today (git diff, new files, modified configs, sprint-prep sheets, memory updates, code fixes). Stage everything relevant, write a detailed commit message summarizing the day's work (what was done, bugs fixed, configs changed, sprints run, lessons learned). Push to origin/main. Report the commit hash and summary on Slack.",
+      "message": "[SCHEDULED] Daily git push — Stage all changes, write detailed commit message summarizing the day's work, push to origin/main.",
       "needs_lead": true
     }
   ],

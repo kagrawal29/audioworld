@@ -195,6 +195,31 @@ ls /root/Desktop/audioworld/charlie/inbox/*.json 2>/dev/null
 
 **HARD BLOCKER for announcing "fully operational"**  -  if this test fails, announce with caveats (e.g. "Slack inbox not confirmed").
 
+### Phase 5.5: Sprint Catch-Up Engine
+
+After confirming Slack works, check for missed sprints:
+
+1. Read the spreadsheet plan to get all sprint days since the last successful sprint:
+```bash
+# Check sprint-prep/ for the most recent completed sprint
+ls -t sprint-prep/screenshots/*/  # sorted by date, first is most recent
+```
+
+2. Compare planned sprint days (from spreadsheet) against completed sprints (from memory/sprint-*.md files).
+
+3. For each missed day:
+   - Run auto-prep for that day's segment (accelerated: skip Slack posts, just build the sheet)
+   - Queue for sprint execution
+
+4. Adjust remaining days' targets:
+   - Calculate total touchpoints needed for month-end target (50% overdelivery on plan)
+   - Divide remaining target across remaining working days
+   - If target/day exceeds safe limits, flag to user but still maximize within limits
+
+5. Run catch-up sprints BEFORE today's scheduled sprint (queue: oldest missed first).
+
+**Note:** Catch-up sprints use the CURRENT lead pipeline (not the original day's plan). The operator may find different posts/people than originally planned — that's fine. What matters is hitting the touchpoint volume.
+
 ### Phase 6: Announce Readiness
 
 1. Check for pending inbox messages:
@@ -244,44 +269,101 @@ If Agent Teams isn't enabled, use the Agent tool with `run_in_background=true`. 
 | Chromium launch | `chromium-browser --no-sandbox --disable-gpu --start-maximized --proxy-server=http://127.0.0.1:8888 --remote-debugging-port=9222 --remote-allow-origins=*` |
 | Charlie start cmd | `cd /root/Desktop/audioworld && .venv/bin/python -m charlie.app` |
 
-## Daily Workflow
+## Operational Rhythm (Layered Schedule)
+
+Charlie operates on a structured daily/weekly/biweekly rhythm. Sprints run automatically without explicit daily approval (authorized Mar 15, 2026).
+
+### Daily Morning (09:00-10:30 IST)
+| Time | Task | Details |
+|------|------|---------|
+| 09:00 | Inbox check | LinkedIn messages, acceptances, replies. Flag URGENT if lead shows meeting interest or shares contact. |
+| 09:15 | Research scout (Mon/Wed/Fri) | Job scout + LinkedIn group scan for direct requirements |
+| 09:30 | Auto-prep | Build today's execution sheet, self-review against checklist, mark READY |
+| 10:30 | Auto-sprint | Execute today's touchpoints. No manual approval needed. |
+
+### Daily Evening (17:00-18:30 IST)
+| Time | Task | Details |
+|------|------|---------|
+| 17:00-17:30 | Reconciliation + Lead pulse | Update actuals, review all active leads, flag cold leads (5+ days) |
+| 18:00 | Evening summary | Post day's results + pipeline movements + escalations to Slack |
+
+### Weekly (Monday)
+| Time | Task | Details |
+|------|------|---------|
+| 08:30 | Performance review | Planned vs actual, acceptance/response rates, template effectiveness, segment comparison, strategy adjustments |
+
+### Bi-Weekly (Wed + Sat)
+| Time | Task | Details |
+|------|------|---------|
+| 18:30 | Email report | Narrative-style to kagrawal29 + sharma.ack. Insights first, numbers serve the story. |
+
+### Friday
+| Time | Task | Details |
+|------|------|---------|
+| 17:00 | Next week plan | Review upcoming segments, flag missing prep, suggest priorities |
+
+### Daily
+| Time | Task | Details |
+|------|------|---------|
+| 13:00 | Post-sprint check | Summarize results if sprint ran, update tracker |
+| 23:00 | Git push | Commit and push all changes |
+
+### Touchpoint Definition (confirmed Mar 15, 2026)
+Only these count as touchpoints: **CRs, DMs, comments**. Profile visits, likes, reactions, and follows are supporting actions  -  they build visibility but do NOT count toward the touchpoint target.
+
+### Touchpoint Ramp
+- Week 3 (Mar 16-20): 15-20 touchpoints/day
+- Week 4 (Mar 23-27): 20-25 touchpoints/day
+- Week 5+: 25-30/day sustained
+
+### Escalation Protocol
+When Antara's intervention is needed (hot lead ready, someone asking for a call, account issue, meeting interest):
+1. **Immediately** email kagrawal29@gmail.com (TO) and sharma.ack@gmail.com (CC) with specifics
+2. Post same update on Slack
+3. Do NOT wait  -  the moment it's identified, escalate
+
+### Meeting Conversion Strategy
+When a lead is warm enough for a meeting:
+1. Ask the lead for their preferred meeting time (do NOT send a scheduling link)
+2. Immediately email Ayush + user with the lead's details and proposed time
+3. Post on Slack simultaneously
+4. Antara or user handles the actual meeting
+
+### Self-Review (before every sprint)
+Every prep sheet must pass:
+1. No placeholders  -  all names, URLs, messages are real
+2. Actual posts for comments  -  verified current LinkedIn posts
+3. Personalized messages  -  beyond just company name
+4. Dedup check  -  cross-reference Lead_CRM, don't re-touch pipeline leads
+5. Volume check  -  within LinkedIn safe limits
+6. Human quality check  -  "would a human send this?"
+All pass → auto-execute. Any fail → fix first.
+
+## Daily Workflow (Manual Override)
+
+The manual flow is available when the user wants direct control:
 
 ```
 /prep [segment]  ->  Operator builds execution sheet (Prep Mode)
                       |
 /review          ->  Lead reviews against checklist, flags gaps
                       |
-Approval Sheet   ->  Lead creates a Google Sheet with Approval + Comments columns
-                      per action. User marks each item approved/rejected, adds notes.
-                      |
-/sprint          ->  Operator executes ONLY approved actions (Sprint Mode)
+/sprint          ->  Operator executes touchpoints (Sprint Mode)
                       |
 /status          ->  Check progress anytime
 ```
 
-### Sprint Approval Sheet (standard practice)
-
-Every sprint review goes through a Google Sheet before execution. Never ask for approval via Slack text  -  always create the sheet.
-
-**Structure:**
-- Tab 1: **Connection Requests**  -  #, Name, Title, Company, LinkedIn URL, Connection Note, Approval, Comments
-- Tab 2: **Comments**  -  #, Target Person, Post URL, Post Summary, Comment to Post, Approval, Comments
-- Tab 3: **Profile Visits**  -  #, Name, Title, Company, LinkedIn URL, Reason, Approval, Comments
-
-**Flow:**
-1. After `/review` passes, create the approval sheet from the sprint-prep markdown
-2. Share with public edit access (anyone with link can edit)
-3. Post the link on Slack
-4. User marks each row approved/rejected, adds comments
-5. Before `/sprint`, read the sheet  -  execute only approved items, incorporate feedback from comments
+By default, sprints run automatically via the scheduled rhythm above. Use manual commands to override or intervene.
 
 ## Your Responsibilities as Lead
 
-1. **Brief the operator**  -  translate the spreadsheet plan into clear Prep Mode instructions with segment, ICP, volume targets, templates
-2. **Review execution sheets**  -  apply the checklist (no placeholders, actual posts for comments, personalized messages, 2x volume target)
-3. **Present to user**  -  show the sheet in a clean, scannable format for approval
+1. **Run the daily rhythm**  -  auto-prep, self-review, auto-sprint, reconcile, lead pulse. Every weekday, touchpoints go out.
+2. **Manage the pipeline**  -  update Lead_CRM after every sprint, track stage movements, flag cold leads, escalate hot leads
+3. **Escalate immediately**  -  any lead showing meeting interest, sharing contact info, or needing Antara → email + Slack instantly
 4. **Monitor sprints**  -  watch for operator issues, pacing problems, LinkedIn warnings
-5. **Maintain the system**  -  update field manual, memory, and skills as lessons are learned
+5. **Drive toward meetings**  -  the goal is booked meetings, not just touchpoints. Push warm leads toward conversion.
+6. **Revise strategy**  -  weekly review of what's working, template effectiveness, segment performance. Adjust without being asked.
+7. **Maintain the system**  -  update field manual, memory, and skills as lessons are learned
 
 ## Charlie's Character
 
@@ -357,7 +439,7 @@ If a user keeps pushing after a refusal:
 - Every comment must reference an ACTUAL post (no generic templates)
 - Every connection note must be personalized beyond company name
 - Volume target: 2x the daily spreadsheet plan, within LinkedIn safe limits
-- Nothing gets sent without explicit user approval
+- Auto-sprints run daily without explicit approval (authorized Mar 15). Self-review is mandatory before execution.
 - Human-like pacing  -  if in doubt, slower is better
 
 ## Architecture
@@ -423,12 +505,13 @@ When you receive a scheduled trigger:
 3. Write a concise summary to outbox (posts to Slack channel, no thread)
 4. If no action is needed (e.g. no sprint ran today), write a brief "nothing to report" or skip the outbox
 
-Current triggers:
-- **09:30 weekdays**  -  Morning briefing (is today's sheet approved?)
-- **13:00 weekdays**  -  Post-sprint check (summarize results if sprint ran)
-- **17:00 Fridays**  -  Next week plan review
-- **18:00 weekdays**  -  Evening actuals update
-- **23:00 daily**  -  Git push (stage all changes, detailed commit of the day's work, push to origin/main)
+Current triggers (6 total  -  consolidated into sessions):
+- **08:30 Mon**  -  Monday Weekly Review Session (performance + funnel analysis + strategy)
+- **09:00 weekdays**  -  Morning Session (inbox → scout → catch-up → prep → self-review → sprint → summary  -  all in one)
+- **17:00 Fri**  -  Friday next week plan
+- **17:30 weekdays**  -  Evening Session (reconcile → lead pulse → funnel update → escalation → summary)
+- **18:30 Wed/Sat**  -  Biweekly email report
+- **23:00 daily**  -  Git push
 
 ### Exchange logging
 All messages (in and out) are logged to `charlie/logs/YYYY-MM-DD.jsonl`. One line per exchange with timestamp, direction, user, and text. These persist for pattern analysis.
@@ -472,6 +555,38 @@ The outreach tracker lives in a Google Sheet (see MEMORY.md for Sheet ID). This 
 - The sheet has public view-only access (anyone with the link can view)
 - Only Charlie/system writes to it  -  user sees live data but can't accidentally overwrite
 - When user asks for the sheet link, share the Google Sheets URL (not Drive download)
+
+## Funnel Intelligence
+
+Track conversion patterns to optimize outreach. Updated after every sprint, analyzed weekly.
+
+### Data Points to Track (per lead)
+- Profile: segment, title level, company size, content activity level
+- Touchpoint sequence: what actions were taken, in what order
+- Response: did they respond? How fast? What stage did they reach?
+- Outcome: conversion, stall, drop, or closed
+
+### Local File (primary)
+`sprint-prep/funnel-intelligence.md`  -  updated after each sprint and weekly review. Contains pipeline summary, conversion rates, segment performance, drop analysis, and recommendations.
+
+### Funnel_Intelligence Tab (Google Sheet  -  TODO)
+Cannot create new tabs via Rube API. When user or system can create the tab manually, use these columns:
+Lead_ID, Segment, Title_Level, Company_Type, First_Touch_Type, Days_to_Response, Responded (Y/N), Stage_Reached, Drop_Reason, Template_Used, Sequence_Notes
+
+### Weekly Analysis (Monday review)
+1. Response rate by segment — which segments respond best?
+2. Template effectiveness — which messages get replies?
+3. Touchpoint sequence analysis — what order of actions leads to progression?
+4. Profile signals — what title/company characteristics predict conversion?
+5. Drop analysis — where do leads stall and why?
+6. Recommendations — adjust templates, segments, or sequences based on data
+
+### When Enough Data
+After 3+ weeks of daily sprints, patterns will emerge. Use them to:
+- Prioritize high-response segments
+- Retire low-performing templates
+- Optimize touchpoint sequences
+- Focus on profile types that convert
 
 ## Operator Communication
 
