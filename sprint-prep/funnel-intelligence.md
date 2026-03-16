@@ -1,17 +1,17 @@
 # Funnel Intelligence — AudioWorld LinkedIn Outreach
 
-## Last Updated: 2026-03-15
+## Last Updated: 2026-03-16
 
-## Pipeline Summary (as of Mar 15)
+## Pipeline Summary (as of Mar 16 evening)
 
 | Stage | Count | % of Total | Description |
 |-------|-------|-----------|-------------|
-| S4 (Replied) | 3 | 14% | Director Sanjay M (HOT), Satyam, Vivek |
-| S3 (Engaged) | 6 | 29% | Sunny Jani, Joby, Vishal, Tanya, Rahul, Lakshita |
-| S2 (Connected) | 8 | 38% | Accepted CRs, need intro DMs |
-| S1 (Touched) | 3 | 14% | Key pending CRs (Alpa, Ritu, Darrpan) |
-| CLOSED | 1 | 5% | Suuresh (declined) |
-| **Total Active** | **20** | | |
+| S4 (Replied) | 4 | 15% | Director Sanjay M (HOT), Satyam, Vivek, Girish Singh (NEW) |
+| S3 (Engaged) | 10 | 37% | Joby Jose, Ravichandra AJ, Sunny, Vishal, Tanya, Rahul, Anju, Abhinav, Nishita, Shivansh |
+| S2 (Connected) | 5 | 19% | Aditya Lahariya, Barathraj, Nahush Badge, Gaurav Gupta, Sagar Sahu |
+| S1 (Touched) | 4 | 15% | Manish Verma (buying signal), Alpa, Ritu, Darrpan |
+| CLOSED | 2 | 7% | Suuresh (declined), Lakshita (closed) |
+| **Total Active** | **23** | | +3 from yesterday |
 
 ## Conversion Funnel (Week 1-2 data, small sample)
 
@@ -98,8 +98,30 @@ Inbound leads (people reaching out TO Antara) have 100% conversion to engagement
 ## Weekly Update Log
 
 ### Week 1-2 (Mar 2-15):
-- 3 sprints executed (Mar 4, 5, 7)
-- 36 touchpoints by new definition (CRs + DMs + comments)
+- 3 sprints executed (Mar 4, 5, 7) — 3 of 12 working days (25% execution)
+- 36 touchpoints by new definition (CRs + DMs + comments) vs 212 planned (17%)
 - 3 leads at S4, pipeline building
-- Plain CRs confirmed dead on free accounts
+- Plain CRs confirmed dead on free accounts — only 5 personalized CRs/month
 - 8-day sprint gap (Mar 8-15) due to approval bottleneck → now fixed with auto-sprint
+- CR acceptance rate: ~89% (personalized only)
+- DM response rate: 43% (60% personalized, 33% generic)
+
+### Week 3 Review (Mar 16 Monday):
+- **Critical constraint identified:** Free account limits CRs to 5 personalized/month. Plan assumed 12/day.
+- **Realistic daily max (new def):** 0-1 CRs + 6 DMs + 8-10 comments = 14-17/day
+- **Month-end projection (best case):** 36 + (14 days × 17) = ~274 touchpoints
+- **50% overdelivery (696) is unreachable** without LinkedIn Premium or alternative strategy
+- **Priority pivot:** DMs and comments are now primary touchpoint vehicles, not CRs
+- **Action items:** Catch-up sprints, DM blitz on 8 connected leads, Sanjay M escalation re-sent
+
+### Mar 16 Sprint Results:
+- **19 touchpoints delivered** (1 CR, 10 DMs, 8 comments) — first auto-sprint
+- **DM response rate today:** 2/10 replied same-day (Girish Singh, Ravichandra AJ) = 20% immediate
+- **Girish Singh pattern:** Filmmaker/editor, replied twice within minutes. High engagement signal.
+- **Ravichandra AJ pattern:** 24K followers, filmmaker/producer. Polite but non-committal ("If anything comes up"). Needs content engagement, not more DMs.
+- **Joby Jose re-engaged:** EXISTING CLIENT. Founder, Cameon Creative Studio. Was 13 days unanswered. Critical relationship recovered.
+- **Groups joined (3):** Opens new channel for inbound leads and requirements
+- **Buying signals found:** Aayug Media (e-learning VO, 5 applicants), Nation with NaMo (political content)
+- **Comments on 8 posts:** Mix of industry figures (Steve Bastoni 208 reactions), agency people (Punit Gwalani/Publicis), and production houses (TransPerfect India)
+- **Month-to-date: 55 touchpoints across 4 sprints**
+- **Connections: ~333**
