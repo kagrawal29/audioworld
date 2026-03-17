@@ -117,13 +117,26 @@ def handle_mention(event, say, logger):
 # ── Outbox watcher ───────────────────────────────────────────────────
 
 def outbox_callback(data: dict) -> None:
-    """Post an outbox message back to Slack."""
+    """Post an outbox message back to Slack. Supports file uploads via file_path."""
     thread_ts = data.get("thread_ts")
-    response = app.client.chat_postMessage(
-        channel=data["channel"],
-        text=data["text"],
-        thread_ts=thread_ts,
-    )
+    file_path = data.get("file_path")
+
+    if file_path and os.path.isfile(file_path):
+        # Upload file to Slack channel/thread
+        response = app.client.files_upload_v2(
+            channel=data["channel"],
+            file=file_path,
+            title=data.get("file_title", os.path.basename(file_path)),
+            initial_comment=data.get("text", ""),
+            thread_ts=thread_ts,
+        )
+    else:
+        response = app.client.chat_postMessage(
+            channel=data["channel"],
+            text=data["text"],
+            thread_ts=thread_ts,
+        )
+
     # Track this thread so future replies are processed
     if thread_ts:
         _charlie_threads.add(thread_ts)

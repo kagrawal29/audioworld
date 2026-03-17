@@ -107,29 +107,45 @@ def send_to_lead_raw(text: str) -> None:
 
 
 def watch_outbox(callback: Callable[[dict], None]) -> None:
-    """Poll outbox/ for new JSON files and relay them via callback. Runs forever."""
-    seen: set[str] = set()
+    """Poll outbox/ for new JSON files and relay them via callback. Runs forever.
+
+    Uses atomic rename (.json -> .sending) before processing to prevent
+    duplicate delivery if multiple processes watch the same directory.
+    """
+    # Clean up stale .sending files from previous crashes (skip, don't re-send)
+    try:
+        for stale in config.OUTBOX_DIR.glob("*.sending"):
+            print(f"[outbox] Removing stale .sending file: {stale.name}")
+            stale.unlink()
+    except OSError:
+        pass
+
     while True:
         try:
             for path in config.OUTBOX_DIR.glob("*.json"):
-                if path.name in seen:
-                    continue
+                # Atomically claim the file by renaming it
+                lock_path = path.with_suffix(".sending")
                 try:
-                    data = json.loads(path.read_text())
+                    path.rename(lock_path)
+                except OSError:
+                    continue  # Another process grabbed it first
+
+                try:
+                    data = json.loads(lock_path.read_text())
                     callback(data)
                     log_exchange("out", "charlie", data.get("text", ""),
                                 data.get("id", ""), data.get("channel", ""),
                                 data.get("thread_ts", ""))
-                    path.unlink()
                 except (json.JSONDecodeError, OSError) as exc:
                     print(f"[outbox] Error processing {path.name}: {exc}")
                 except Exception as exc:
                     print(f"[outbox] Callback failed for {path.name}: {exc}")
-                    try:
-                        path.unlink()
-                    except OSError:
-                        pass
-                seen.add(path.name)
+
+                # Always remove the lock file after processing
+                try:
+                    lock_path.unlink()
+                except OSError:
+                    pass
         except OSError:
             pass
         time.sleep(config.OUTBOX_POLL_INTERVAL)

@@ -1,17 +1,17 @@
 # Funnel Intelligence — AudioWorld LinkedIn Outreach
 
-## Last Updated: 2026-03-16
+## Last Updated: 2026-03-17
 
-## Pipeline Summary (as of Mar 16 evening)
+## Pipeline Summary (as of Mar 17 evening pulse)
 
 | Stage | Count | % of Total | Description |
 |-------|-------|-----------|-------------|
-| S4 (Replied) | 4 | 15% | Director Sanjay M (HOT), Satyam, Vivek, Girish Singh (NEW) |
-| S3 (Engaged) | 10 | 37% | Joby Jose, Ravichandra AJ, Sunny, Vishal, Tanya, Rahul, Anju, Abhinav, Nishita, Shivansh |
-| S2 (Connected) | 5 | 19% | Aditya Lahariya, Barathraj, Nahush Badge, Gaurav Gupta, Sagar Sahu |
-| S1 (Touched) | 4 | 15% | Manish Verma (buying signal), Alpa, Ritu, Darrpan |
-| CLOSED | 2 | 7% | Suuresh (declined), Lakshita (closed) |
-| **Total Active** | **23** | | +3 from yesterday |
+| S4 (Replied) | 5 | 16% | Vishal Yoman (MEETING ASK!), Director Sanjay M (HOT), Satyam, Vivek, Girish Singh |
+| S3 (Engaged) | 14 | 45% | Joby Jose, Ravichandra AJ, Sunny, Tanya, Rahul, Abhinav, Nishita (WARM), Shivansh, Aditya, Barathraj, Nahush, Gaurav, Sagar |
+| S2 (Connected) | 4 | 13% | Sameir Kale, Purushottam Desai, Manya Kumaria, Manu Varghese |
+| S1 (Touched) | 4 | 13% | Manish Verma (buying signal), Alpa, Ritu, Darrpan |
+| CLOSED/NOT PROSPECT | 3 | 10% | Suuresh (declined), Lakshita (closed), Anju Vinod (VO talent) |
+| **Total Active** | **27** | | +4 from yesterday |
 
 ## Conversion Funnel (Week 1-2 data, small sample)
 
@@ -125,3 +125,16 @@ Inbound leads (people reaching out TO Antara) have 100% conversion to engagement
 - **Comments on 8 posts:** Mix of industry figures (Steve Bastoni 208 reactions), agency people (Punit Gwalani/Publicis), and production houses (TransPerfect India)
 - **Month-to-date: 55 touchpoints across 4 sprints**
 - **Connections: ~333**
+
+### Mar 17 Sprint Results:
+- **15 touchpoints delivered** (0 CRs sent, 7 DMs, 8 comments) — Animation Agencies segment
+- **Vishal Yoman S3→S4:** Warm reply asking about languages/formats. Sent detailed capabilities + meeting ask. HOTTEST NEW LEAD.
+- **5 new S3 leads from intro DMs:** Aditya Lahariya, Barathraj Ravidass (dubbing artist!), Nahush Badge (Soundz Best), Gaurav Gupta (Pocket FM), Sagar Sahu (Smile Curve Studios — exact match)
+- **4 new S2 from accepted CRs:** Sameir Kale, Purushottam Desai, Manya Kumaria (COO VineGarden Films), Manu Varghese
+- **Nishita Vayeda warm follow-up sent:** Language specifics, awaiting her response
+- **Girish Singh engagement continued:** Commented on his Nippon India commercial post
+- **8 comments on real posts:** VO industry (RJ Nupur Tandon, Divya Sharda audiobook), film/media (Girish Singh, Modhura Palit, Sumit Kumar, Geetika Jatta Zomato), theatre (Aditi Jain), acoustics (Naoko Ashida)
+- **Profile viewers: 252, Post impressions: 2,855** — visibility growing
+- **Month-to-date: 70 touchpoints across 5 sprints**
+- **Connections: ~336**
+- **No warnings or restrictions. Clean sprint.**
