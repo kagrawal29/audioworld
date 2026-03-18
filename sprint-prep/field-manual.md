@@ -14,9 +14,13 @@ Read this at the start of every session. This is your playbook.
 
 ### Connection requests
 - Personalize every note using their specific work, not just company name
-- Max 200 characters (LinkedIn limit for connection notes — verified 2026-03-03)
-- FREE accounts get only ~5 personalized invites per month. Use them on highest-value leads only. All other CRs go out as plain Connect (no note).
-- 2nd-degree: personalized note (if invites remain). 3rd+: may only allow plain connect, note this.
+- **Sales Navigator Core is ACTIVE (Mar 18).** Personalized CRs are now unlimited from Sales Nav.
+- To send a personalized CR: navigate to the prospect's Sales Nav lead profile (`/sales/lead/...`), click the overflow menu ("..."), click "Connect". A "Send invitation" dialog appears with a 300-char note field.
+- The overflow menu Connect button requires CDP coordinate click (`Input.dispatchMouseEvent`) — JS `.click()` does not work.
+- Regular LinkedIn Connect buttons (outside Sales Nav) still send plain CRs without a note dialog.
+- Max 300 characters for connection notes via Sales Nav (up from 200 on regular LinkedIn).
+- **InMail:** 50 credits/month. Use for high-value 2nd/3rd degree prospects who can't be reached via CR. Send from Sales Nav inbox.
+- 2nd-degree: always use Sales Nav personalized CR. 3rd+: try Sales Nav CR first, InMail if CR not available.
 - Apply humaniser rules (see below) to every note. No AI-sounding language.
 
 ### Comments  -  MUST be on actual posts

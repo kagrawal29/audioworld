@@ -1,26 +1,28 @@
 # Funnel Intelligence — AudioWorld LinkedIn Outreach
 
-## Last Updated: 2026-03-17
+## Last Updated: 2026-03-18
 
-## Pipeline Summary (as of Mar 17 evening pulse)
+## Pipeline Summary (as of Mar 18 evening pulse)
 
 | Stage | Count | % of Total | Description |
 |-------|-------|-----------|-------------|
-| S4 (Replied) | 5 | 16% | Vishal Yoman (MEETING ASK!), Director Sanjay M (HOT), Satyam, Vivek, Girish Singh |
-| S3 (Engaged) | 14 | 45% | Joby Jose, Ravichandra AJ, Sunny, Tanya, Rahul, Abhinav, Nishita (WARM), Shivansh, Aditya, Barathraj, Nahush, Gaurav, Sagar |
-| S2 (Connected) | 4 | 13% | Sameir Kale, Purushottam Desai, Manya Kumaria, Manu Varghese |
-| S1 (Touched) | 4 | 13% | Manish Verma (buying signal), Alpa, Ritu, Darrpan |
-| CLOSED/NOT PROSPECT | 3 | 10% | Suuresh (declined), Lakshita (closed), Anju Vinod (VO talent) |
-| **Total Active** | **27** | | +4 from yesterday |
+| S5 (Meeting Set) | 1 | 3% | **Sagar Sahu (CALL REQUEST — awaiting time confirmation)** |
+| S4 (Replied) | 7 | 21% | Vishal Yoman (MEETING ASK), Director Sanjay M (HOT), Satyam, Vivek, Girish Singh, Sameir Kale, Barathraj Ravidass |
+| S3 (Engaged) | 13 | 39% | Joby Jose, Sunny, Tanya, Rahul Menon, Abhinav Parmar, Shivansh, Nahush Badge, Gaurav Gupta, Riya M. (DIRECT REQ), Purushottam Desai, Manya Kumaria, Manu Varghese, Anshu Priya |
+| S2 (Connected) | 3 | 9% | Ujjawal Parmar, Amrit Regi, Shivani Dalvi |
+| S1 (Touched) | 4 | 12% | Manish Verma (buying signal), Alpa, Ritu, Darrpan |
+| PARKED/TALENT | 4 | 12% | Ravichandra AJ (Antara handling), Nishita Vayeda (talent), Aditya Lahariya (talent), Anju Vinod (talent) |
+| CLOSED | 2 | 6% | Suuresh (declined), Lakshita (closed) |
+| **Total Active** | **28** | | +1 from yesterday, first S5! |
 
 ## Conversion Funnel (Week 1-2 data, small sample)
 
 ```
-Touched (S0→S1): ~107 people engaged via various touchpoints
-  └→ Connected (S2): 8 accepted CRs (7.5% of touched)
-      └→ Engaged (S3): 6 had DM exchange (75% of connected)
-          └→ Replied (S4): 3 showed real interest (50% of engaged)
-              └→ Meeting Set (S5): 0 (Director Sanjay M closest — shared phone)
+Touched (S0→S1): ~110 people engaged via various touchpoints
+  └→ Connected (S2): 11 accepted CRs (10% of touched)
+      └→ Engaged (S3): 13 had DM exchange (high — includes direct approaches)
+          └→ Replied (S4): 7 showed real interest (54% of engaged)
+              └→ Meeting Set (S5): 1 — Sagar Sahu (CALL requested Mar 18!)
 ```
 
 ## Response Patterns
@@ -31,7 +33,7 @@ Touched (S0→S1): ~107 people engaged via various touchpoints
 - **VO artists respond but as peers**, not buyers (Tanya, Lakshita, Rahul — inbound/peer dynamic)
 
 ### What doesn't work:
-- **Plain CRs on free accounts** — 100% removal rate (tested Mar 4 batched, Mar 7 spread out)
+- **Plain CRs on free accounts** — 100% removal rate (tested Mar 4 batched, Mar 7 spread out). NOW FIXED with Sales Nav (unlimited personalized CRs from Sales Nav interface).
 - **Agency employees** (non-founders) — low response to DMs
 - **Large agency contacts** (Netflix, Publicis, FCB) — CRs pending 10+ days, likely ignored
 
@@ -86,14 +88,16 @@ Inbound leads (people reaching out TO Antara) have 100% conversion to engagement
 - Large multinational agency (decision-making too distributed)
 - No mutual connections
 
-## Recommendations for Week 3+
+## Recommendations for Week 3+ (updated Mar 18 — Sales Nav era)
 
-1. **Focus on Corporate Video + Inbound** — highest conversion
-2. **Deprioritize large agencies** for CRs (use comments/follows instead)
-3. **Shorten follow-up window** from 3-4 days to 2 days
-4. **Push S4 leads toward meetings aggressively** — Director Sanjay M needs a call TODAY
-5. **Join LinkedIn groups** — potential source of inbound leads
-6. **Personalize every DM** with post reference — 60% vs 33% reply rate
+1. **CR BLITZ via Sales Nav** — 15-20 personalized CRs/day now possible. Target high-value 2nd-degree prospects in Corporate Video, Ad Agencies, and Dubbing segments.
+2. **Use InMail strategically** — 50/month = ~2-3/day. Reserve for non-connected high-value leads who can't be CR'd.
+3. **Focus on Corporate Video + Inbound + Direct Requirements** — highest conversion
+4. **Deprioritize large agencies** for CRs (use comments/follows instead)
+5. **Push S4/S5 leads toward meetings** — Sagar Sahu call, Vishal Yoman meeting, Director Sanjay M call
+6. **Monitor direct requirement posts** — Riya M. pattern (hiring posts in feed/groups) is highest-value
+7. **Personalize every DM** with post reference — 60% vs 33% reply rate
+8. **Daily targets (Sales Nav):** 15-20 CRs + 8-10 DMs + 8-10 comments = 35-40 touchpoints/day
 
 ## Weekly Update Log
 
@@ -109,9 +113,9 @@ Inbound leads (people reaching out TO Antara) have 100% conversion to engagement
 ### Week 3 Review (Mar 16 Monday):
 - **Critical constraint identified:** Free account limits CRs to 5 personalized/month. Plan assumed 12/day.
 - **Realistic daily max (new def):** 0-1 CRs + 6 DMs + 8-10 comments = 14-17/day
-- **Month-end projection (best case):** 36 + (14 days × 17) = ~274 touchpoints
-- **50% overdelivery (696) is unreachable** without LinkedIn Premium or alternative strategy
-- **Priority pivot:** DMs and comments are now primary touchpoint vehicles, not CRs
+- **Month-end projection (pre-Sales Nav):** 36 + (14 days × 17) = ~274 touchpoints
+- **Month-end projection (Sales Nav, Mar 18+):** 87 + (9 remaining days × 35) = ~402 touchpoints
+- **Priority pivot (pre-Sales Nav):** DMs and comments were primary vehicles. **Now with Sales Nav: CRs are back as primary.**
 - **Action items:** Catch-up sprints, DM blitz on 8 connected leads, Sanjay M escalation re-sent
 
 ### Mar 16 Sprint Results:
@@ -138,3 +142,16 @@ Inbound leads (people reaching out TO Antara) have 100% conversion to engagement
 - **Month-to-date: 70 touchpoints across 5 sprints**
 - **Connections: ~336**
 - **No warnings or restrictions. Clean sprint.**
+
+### Mar 18 Sprint Results:
+- **17 touchpoints delivered** (0 CRs sent, 9 DMs, 8 comments) — Ad Agencies + Multilingual segment
+- **Sales Navigator Core activated + onboarded** — game changer for CRs
+- **FIRST S5 LEAD: Sagar Sahu** — wants a call. Call proposal sent (3-5pm IST). Escalation email sent.
+- **Riya M. DIRECT REQUIREMENT:** Audio Post Production Partner hiring post. DM + comment sent. 1st degree. High priority.
+- **5 replies received same-day:** Sameir (multi-language VO), Purushottam (documentary), Barathraj (Tamil/English), Rahul ("give me time"), Abhinav (👍)
+- **DM routing bug:** 3 DMs misrouted via compose overlay (went to wrong threads). All recovered via Sales Nav InMail/messaging. Field manual updated: always message from profile page, never compose overlay.
+- **Sales Nav capabilities confirmed:** 50 InMails/month, unlimited personalized CRs (300 chars) from Sales Nav interface, advanced lead search
+- **Profile viewers: 248, Post impressions: 2,633**
+- **Month-to-date: 87 touchpoints across 6 sprints**
+- **Connections: 337→339**
+- **No warnings or restrictions.**
