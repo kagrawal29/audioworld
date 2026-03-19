@@ -1,19 +1,20 @@
 # Funnel Intelligence — AudioWorld LinkedIn Outreach
 
-## Last Updated: 2026-03-18
+## Last Updated: 2026-03-19 (evening)
 
-## Pipeline Summary (as of Mar 18 evening pulse)
+## Pipeline Summary (as of Mar 19 evening pulse — post Antara's review)
 
 | Stage | Count | % of Total | Description |
 |-------|-------|-----------|-------------|
-| S5 (Meeting Set) | 1 | 3% | **Sagar Sahu (CALL REQUEST — awaiting time confirmation)** |
-| S4 (Replied) | 7 | 21% | Vishal Yoman (MEETING ASK), Director Sanjay M (HOT), Satyam, Vivek, Girish Singh, Sameir Kale, Barathraj Ravidass |
-| S3 (Engaged) | 13 | 39% | Joby Jose, Sunny, Tanya, Rahul Menon, Abhinav Parmar, Shivansh, Nahush Badge, Gaurav Gupta, Riya M. (DIRECT REQ), Purushottam Desai, Manya Kumaria, Manu Varghese, Anshu Priya |
-| S2 (Connected) | 3 | 9% | Ujjawal Parmar, Amrit Regi, Shivani Dalvi |
-| S1 (Touched) | 4 | 12% | Manish Verma (buying signal), Alpa, Ritu, Darrpan |
-| PARKED/TALENT | 4 | 12% | Ravichandra AJ (Antara handling), Nishita Vayeda (talent), Aditya Lahariya (talent), Anju Vinod (talent) |
-| CLOSED | 2 | 6% | Suuresh (declined), Lakshita (closed) |
-| **Total Active** | **28** | | +1 from yesterday, first S5! |
+| S5 (Meeting/Call) | 2 | 11% | **Sagar Sahu (CALL CONFIRMED today 3-5pm)**, **Director Sanjay M (CALLED, will reconnect)** |
+| S4 (Replied) | 4 | 22% | Vishal Yoman (MEETING ASK, 3d no reply), Girish Singh, Satyam Aggarwal, Sameir Kale (check if talent) |
+| S3 (Engaged) | 9 | 50% | Riya M. (DIRECT REQ), Joby Jose, Nahush Badge, Purushottam Desai, Manya Kumaria, Ujjawal Parmar, Amrit Regi, Zahad S, Yarrow Motion Pictures |
+| S1 (Touched) | 1 | 6% | Manish Verma (buying signal) |
+| EXISTING REL | 2 | 11% | Aanshi Shukla, Ravichandra AJ (Antara handling) |
+| DEPRIORITIZED | 1 | | Gaurav Gupta/Pocket FM |
+| TALENT | 10 | | Reclassified per Antara's review (do not pitch) |
+| CLOSED/COLD | 3 | | Sunny Jani (cold), Tanya Nambiar, Lakshita Nagpal |
+| **Total Active** | **18** | | Cleaned from 28 — 10 TALENT removed, pipeline quality up |
 
 ## Conversion Funnel (Week 1-2 data, small sample)
 
@@ -88,16 +89,17 @@ Inbound leads (people reaching out TO Antara) have 100% conversion to engagement
 - Large multinational agency (decision-making too distributed)
 - No mutual connections
 
-## Recommendations for Week 3+ (updated Mar 18 — Sales Nav era)
+## Recommendations for Week 3+ (updated Mar 19 — post Antara review)
 
-1. **CR BLITZ via Sales Nav** — 15-20 personalized CRs/day now possible. Target high-value 2nd-degree prospects in Corporate Video, Ad Agencies, and Dubbing segments.
-2. **Use InMail strategically** — 50/month = ~2-3/day. Reserve for non-connected high-value leads who can't be CR'd.
-3. **Focus on Corporate Video + Inbound + Direct Requirements** — highest conversion
-4. **Deprioritize large agencies** for CRs (use comments/follows instead)
-5. **Push S4/S5 leads toward meetings** — Sagar Sahu call, Vishal Yoman meeting, Director Sanjay M call
-6. **Monitor direct requirement posts** — Riya M. pattern (hiring posts in feed/groups) is highest-value
-7. **Personalize every DM** with post reference — 60% vs 33% reply rate
-8. **Daily targets (Sales Nav):** 15-20 CRs + 8-10 DMs + 8-10 comments = 35-40 touchpoints/day
+1. **DECISION-MAKERS ONLY** — zero outreach to VO artists/talent. Title-filter all Sales Nav searches: Director, Producer, Founder, Head of Post, Creative Director, Agency Lead.
+2. **CR BLITZ via Sales Nav** — 15-20 personalized CRs/day. Mar 19 proved the workflow (13 CRs, no issues).
+3. **Direct requirement response protocol** — for every requirement post: comment + DM poster + DM company page + find decision-maker + escalation email. Non-negotiable.
+4. **Quality > Quantity** — 25-30 well-targeted touchpoints beats 35+ unfocused. Every target verified as decision-maker.
+5. **Push S4/S5 leads hard** — 2 S5s (Sagar Sahu, Director Sanjay M), 4 S4s. Convert 2-3 more to S5 this week.
+6. **Client-side groups for scouting** — 5 active + 14 pending. Monitor for direct requirements during daily scouts.
+7. **Sales Nav saved searches** — 5 active with weekly alerts. Check "explicit requirement keywords" search (180 results) for hot leads.
+8. **Personalize every DM** with post reference — 60% vs 33% reply rate
+9. **Daily targets:** 15-20 CRs + 8-10 DMs + 8-10 comments = 25-35 touchpoints/day (all decision-makers)
 
 ## Weekly Update Log
 
@@ -151,7 +153,20 @@ Inbound leads (people reaching out TO Antara) have 100% conversion to engagement
 - **5 replies received same-day:** Sameir (multi-language VO), Purushottam (documentary), Barathraj (Tamil/English), Rahul ("give me time"), Abhinav (👍)
 - **DM routing bug:** 3 DMs misrouted via compose overlay (went to wrong threads). All recovered via Sales Nav InMail/messaging. Field manual updated: always message from profile page, never compose overlay.
 - **Sales Nav capabilities confirmed:** 50 InMails/month, unlimited personalized CRs (300 chars) from Sales Nav interface, advanced lead search
-- **Profile viewers: 248, Post impressions: 2,633**
 - **Month-to-date: 87 touchpoints across 6 sprints**
 - **Connections: 337→339**
+
+### Mar 19 Sprint Results:
+- **31 touchpoints delivered** (13 CRs, 8 DMs, 10 comments) — Corporate Video + FIRST SALES NAV CR BLITZ
+- **BEST DAY YET** — nearly doubled previous best (19 on Mar 16)
+- **Sales Nav CR blitz worked:** 13 personalized CRs via Sales Nav overflow menu, all with 300-char notes. 65-100s delays, no issues.
+- **14 incoming CRs accepted** — connections now ~353
+- **INPLAY OTT direct requirement found:** Looking for production houses for vertical story content. Comment posted + Sales Nav CR sent. Emails: official@in-play.in, inplayott@gmail.com
+- **Gaurav Gupta referral:** Works French geography at Pocket FM, not Indian. Referred to PM. Pocket FM deprioritized per Antara ("not monetarily reasonable").
+- **Michael G Kanatous:** New message wanting to learn more — US VO talent, not buyer. Reply sent.
+- **3 new S3 leads:** Ujjawal Parmar, Amrit Regi (replied positively), Zahad S (replied with greeting)
+- **Pipeline overhaul after Antara's review:** 10 contacts reclassified as TALENT, active pipeline cleaned from 28→18
+- **Strategy upgrades:** No VO artist targeting, client-side groups (5 joined, 14 pending), 5 Sales Nav saved searches, direct requirement response protocol, quality>quantity
+- **Month-to-date: 118 touchpoints across 7 sprints**
+- **Connections: ~353**
 - **No warnings or restrictions.**

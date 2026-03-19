@@ -8,6 +8,10 @@ Read this at the start of every session. This is your playbook.
 
 **Goal:** Produce a complete, approval-ready execution sheet. Every item must be concrete  -  no placeholders, no "find during sprint."
 
+### Who to target (DECISION MAKERS ONLY)
+- **TARGET:** Producers, Creative Directors, Founders of production houses, Post-Production Heads, Agency Leads, Project Managers — people who HIRE VO/dubbing services.
+- **DO NOT TARGET:** Voice over artists, dubbing artists, singers, sound engineers who are freelance talent. They are NOT leads. If you encounter them, skip or reclassify as TALENT.
+
 ### What to collect per prospect
 - Name, title, company, LinkedIn URL, connection degree
 - 1-2 personalization hooks (specific campaign, post, project  -  not just "works at X")
@@ -50,6 +54,21 @@ Aim for **2x the daily plan** from the spreadsheet. Example: if plan says 25 tou
 | On each profile | 45-90s (scroll, read) |
 | After every 3-4 profiles | 2-3 min break |
 | Between profile and search | 30-60s |
+
+---
+
+## DIRECT REQUIREMENT RESPONSE PROTOCOL (MANDATORY)
+
+When you find a post where someone is looking for VO/dubbing/audio production services:
+
+1. **Comment/respond to the post** — highlight Audio World's relevant capabilities
+2. **DM the poster directly** — if it's a personal LinkedIn profile, DM them
+3. **If posted through a company/brand page:**
+   a. **DM the company page** if LinkedIn allows messaging the page (check for Message button on their page)
+   b. **Find the relevant decision-maker** at that company (Founder, Director, Head of Content, Production Head) and DM them too
+4. **Report back to lead** — include name, company, LinkedIn URL, requirement details. Lead will send escalation email.
+
+This is NOT optional. Direct requirements are the highest-conversion opportunities. Every one gets the full treatment: comment + DM + escalation.
 
 ---
 
