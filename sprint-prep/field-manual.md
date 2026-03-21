@@ -8,12 +8,32 @@ Read this at the start of every session. This is your playbook.
 
 **Goal:** Produce a complete, approval-ready execution sheet. Every item must be concrete  -  no placeholders, no "find during sprint."
 
-### Who to target (DECISION MAKERS ONLY)
-- **TARGET:** Producers, Creative Directors, Founders of production houses, Post-Production Heads, Agency Leads, Project Managers — people who HIRE VO/dubbing services.
+### ICP  -  Tier 1 Only (Decision Makers at Small-Mid Production Businesses)
+- **TARGET:** Founders, Executive Producers, Creative Directors, Heads of Production at small-to-mid production houses and creative agencies, pan-India. They make ad films, TVCs, branded content, documentaries, explainers  -  content that needs VO/dubbing/audio. They BUY these services directly.
 - **DO NOT TARGET:** Voice over artists, dubbing artists, singers, sound engineers who are freelance talent. They are NOT leads. If you encounter them, skip or reclassify as TALENT.
+- **DO NOT TARGET:** Large corporations, brand-side marketing people, or anyone who doesn't directly commission audio/VO work.
+
+### Sub-Tier Classification (MANDATORY for every prospect)
+Tag every prospect with their sub-tier and the signal that triggered inclusion:
+
+**1A  -  ACTIVE INTENT (always Priority 1, respond same hour):**
+- Posted a direct requirement ("looking for VO/dubbing/audio")
+- Hiring for audio/VO/dubbing roles
+- Action: Full blitz  -  comment + DM + CR + escalation email
+
+**1B  -  RECENT PRODUCTION SIGNAL (40% of outreach):**
+- Posted about a completed campaign, TVC, ad film, brand video
+- Shared behind-the-scenes content or tagged team on a project
+- Action: Comment on their post + personalized CR referencing that project
+
+**1C  -  PROFILE FIT, NO ACTIVITY SIGNAL (60% of outreach):**
+- Right title at right company, but no recent project post
+- Action: Personalized CR referencing their company's work
 
 ### What to collect per prospect
 - Name, title, company, LinkedIn URL, connection degree
+- **Sub-Tier: 1A / 1B / 1C**
+- **Signal: what triggered inclusion** (e.g., "posted looking for VO artist Mar 18" or "shared Panasonic campaign 2w ago" or "Founder, production house, profile fit")
 - 1-2 personalization hooks (specific campaign, post, project  -  not just "works at X")
 
 ### Connection requests
@@ -36,16 +56,17 @@ Read this at the start of every session. This is your playbook.
 - Read 2-3 EXISTING comments on the post. Note who wrote them and what they said. This sets the tone.
 - Write a comment that matches the vibe of existing commenters  -  same length, same energy.
 - Comments must be **1-2 sentences max**. Short, natural, punchy. Not essay-like.
+- **TONE: Approachable and colloquial.** Write like you're chatting with a colleague, not writing a business memo. Use casual language, contractions, simple words. Think "oh this is great, love the energy here" not "This is a remarkable initiative that showcases your expertise." The comment should sound like something a real person would type quickly, not something crafted by a professional copywriter.
 - Generic praise = rejected by user. Reference specific content from the post.
 - If no recent posts, skip and note "no recent activity"
 
 ### Execution sheet format
-Save to: `sprint-prep/YYYY-MM-DD-segment.md`
-Sections: Connection Requests, Comments, Profile Visits, DMs, Follow-ups
-Each entry: target, URL, exact message, status (pending approval)
+Save to: `sprint-prep/YYYY-MM-DD-tier1.md`
+Sections: P0 (1A Signals), P1 (1B Connection Requests), P2 (1B Comments), P3 (1C Connection Requests), P4 (Pipeline Follow-ups), P5 (DMs)
+Each entry must include: target, URL, exact message, **Sub-Tier (1A/1B/1C)**, **Signal**, status (pending approval)
 
 ### Volume target
-Aim for **2x the daily plan** from the spreadsheet. Example: if plan says 25 touchpoints, prep 50.
+35-40 touchpoints/day (CRs ~15-20, DMs ~10-12, comments ~8-10). 1A prospects get full treatment regardless of daily volume. 1B and 1C fill the remaining allocation at 40/60 split.
 
 ### Pacing
 | Action | Wait before |
