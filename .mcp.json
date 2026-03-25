@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "rube": {
+      "type": "url",
+      "url": "https://rube.app/mcp",
+      "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiJ1c2VyXzAxS0pONkVBQVlOUlpYQkpFR04xR05QWlNLIiwib3JnSWQiOiJvcmdfMDFLSk42RUNRWDRFS05ZQVNFMU5FOVdYWTgiLCJpYXQiOjE3NzI1NTkzOTd9.PkwfjUzKHWCg6a-Jj2m-4GlbruoTrv-cmH_yn8AtvH4"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["@anthropic-ai/playwright-mcp", "--cdp-endpoint", "http://localhost:9222", "--snapshot-mode", "none", "--console-level", "error", "--image-responses", "omit"]
+    }
+  }
+}

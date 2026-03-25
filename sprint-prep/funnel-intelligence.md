@@ -1,6 +1,6 @@
 # Funnel Intelligence — AudioWorld LinkedIn Outreach
 
-## Last Updated: 2026-03-19 (evening)
+## Last Updated: 2026-03-23 (Monday weekly review)
 
 ## Pipeline Summary (as of Mar 19 evening pulse — post Antara's review)
 
@@ -89,17 +89,35 @@ Inbound leads (people reaching out TO Antara) have 100% conversion to engagement
 - Large multinational agency (decision-making too distributed)
 - No mutual connections
 
-## Recommendations for Week 3+ (updated Mar 19 — post Antara review)
+## Strategy Revamp (Mar 21 — approved by Ayush Mar 22)
 
-1. **DECISION-MAKERS ONLY** — zero outreach to VO artists/talent. Title-filter all Sales Nav searches: Director, Producer, Founder, Head of Post, Creative Director, Agency Lead.
-2. **CR BLITZ via Sales Nav** — 15-20 personalized CRs/day. Mar 19 proved the workflow (13 CRs, no issues).
-3. **Direct requirement response protocol** — for every requirement post: comment + DM poster + DM company page + find decision-maker + escalation email. Non-negotiable.
-4. **Quality > Quantity** — 25-30 well-targeted touchpoints beats 35+ unfocused. Every target verified as decision-maker.
-5. **Push S4/S5 leads hard** — 2 S5s (Sagar Sahu, Director Sanjay M), 4 S4s. Convert 2-3 more to S5 this week.
-6. **Client-side groups for scouting** — 5 active + 14 pending. Monitor for direct requirements during daily scouts.
-7. **Sales Nav saved searches** — 5 active with weekly alerts. Check "explicit requirement keywords" search (180 results) for hot leads.
+**Dropped:** Segment rotation (Ad Agencies Mon, Corporate Video Tue, etc.)
+**New:** Tier 1 ICP-only targeting with sub-tier experimentation.
+
+### ICP — Tier 1 Only
+Founders, Executive Producers, Creative Directors, Post-Production Heads at small-mid production houses and creative agencies. Pan-India. They make ad films, TVCs, branded content, docs, explainers — content needing VO/dubbing/audio.
+
+### Sub-Tiers
+- **1A (Active Intent):** Direct requirement posts, VO/audio hiring. INSTANT response. Full blitz: comment + DM + CR + escalation. Always Priority 1.
+- **1B (Recent Production Signal):** Posted about completed campaign/TVC/film. 40% of planned outreach. Comment + personalized CR.
+- **1C (Profile Fit):** Right title/company, no activity signal. 60% of planned outreach. Personalized CR.
+
+### Evaluation Cadence
+- After each sprint: track sub-tier of every touchpoint
+- Weekly (Monday): compare acceptance rates, response rates, conversion rates by sub-tier
+- Bi-weekly: decide if 40/60 split between 1B/1C needs adjusting
+- After 3 weeks: enough data to definitively prioritize
+
+## Recommendations for Week 4 (Mar 23-27)
+
+1. **Tier 1 ICP only** — every target must be a decision-maker at a production/creative company
+2. **Sub-tier tagging mandatory** — every touchpoint logged with 1A/1B/1C
+3. **Improve CR filtering** — Mar 20 had 5/13 poor matches. Tighter Sales Nav filters.
+4. **Push S4→S5** — Vishal Yoman (6d), Satyam Aggarwal (7d) need follow-up or close
+5. **Colloquial comments** — casual, chatty tone per Ayush's feedback
+6. **20-25 touchpoints/day** (Week 4 ramp)
+7. **Signal scan every morning** — check groups, saved searches, feed for 1A leads
 8. **Personalize every DM** with post reference — 60% vs 33% reply rate
-9. **Daily targets:** 15-20 CRs + 8-10 DMs + 8-10 comments = 25-35 touchpoints/day (all decision-makers)
 
 ## Weekly Update Log
 
@@ -183,3 +201,41 @@ Inbound leads (people reaching out TO Antara) have 100% conversion to engagement
 - **Connections: ~370** (7 more CRs accepted during the day)
 - **No warnings or restrictions.**
 - **Evening pulse findings:** Sagar Sahu shared phone (9410324863) + email. Antara engaging directly. Crispin Reed + Maansi S D. closed. 7 new incoming CRs. Strong comment engagement (14+ reactions, 259+ impressions per comment).
+
+### Mar 23 Evening Pulse:
+- **7 DM replies received** (4 new since morning sprint): Anshu Priya (TALENT), Anshul Jain (in-house audio, park), Sumit Pande (generic positive), Munesh Chaudhary (thumbs up), Suuresh Ramachandran (COLD — two declines), Satya reddy (TALENT), Abhishek Maji (warm, from morning).
+- **10 new connections accepted** (391 total). 4 from today's CRs (40% same-day acceptance): Rudra Dasgupta, Ahmed Khan, Abhishek Maji, Shaardul Patthare.
+- **Imran Shamsi DOUBLE ENGAGEMENT** — mentioned us ("Antara Goswami thank you so much") + loved our comment on WWE post. CR still pending. Very warm signal.
+- **Director Sanjay M birthday today** — S5 lead, relationship touchpoint opportunity.
+- **Aryemann D. / Saregama — NO REPLY YET.** Give 24-48h.
+- **Key pattern:** Same-day CR acceptance (4/10 = 40%) confirms Sales Nav personalized CRs work. Colloquial comments driving warm signals (Imran Shamsi, Abhishek Maji).
+- **No warnings or restrictions.**
+
+### Week 3 Summary (Mar 16-20):
+- **109 touchpoints delivered** across 5 sprints (target 75-100) — above target
+- **Breakdown:** 27 CRs, 38 DMs, 44 comments
+- **Sales Nav activated Mar 18** — CRs jumped from 0-1/day to 13/day
+- **Pipeline cleaned:** 28→18 active leads after Antara's talent reclassification (10 removed)
+- **2 S5 leads:** Sagar Sahu (call confirmed), Director Sanjay M (called, reconnecting)
+- **CR acceptance rate:** 69% (Sales Nav personalized)
+- **DM response rate:** ~50% personalized, ~33% generic
+- **Key lesson:** 5/13 CRs on Mar 20 were poor matches — Sales Nav filtering needs work
+- **Strategy revamp approved by Ayush Mar 22** — dropping segment rotation, moving to Tier 1 ICP with sub-tiers
+
+### Mar 21-22 (Weekend):
+- No sprints. Strategy revamp day (Sat) + off (Sun).
+- Lookalike research completed on Ayush Jain (Brand Hermit) and Chanchal Mahar (PIXEL PERFECT)
+- Comment tone samples emailed to Ayush for feedback (6 before/after examples)
+- Field manual, execution sheet template, and CLAUDE.md updated for new framework
+- Ayush approved: "This looks fantastic. Really clean structure. Let's run with this starting Monday."
+
+### Mar 23 Sprint Results (FIRST TIER 1 ICP SPRINT):
+- **23 touchpoints delivered** (10 CRs, 7 DMs, 5 comments, 1 InMail) — Tier 1 ICP framework
+- **Aryemann D. / Saregama — CRITICAL 1A:** Full blitz (2 comments + InMail + CR). Senior Creative Producer at Saregama India Ltd. Looking for audio production agencies for BULK calendar year work. Escalation emails sent (2x).
+- **2 immediate replies:** Abhishek Maji (comment reply, The Majik House CEO), Suuresh Ramachandran (DM reply, Eye-Q Films founder). Both high-value 1B/1C leads.
+- **Sub-tier breakdown:** 1A: 4 touchpoints (Aryemann blitz + Mayank comment + Neeraj CR), 1B: 6 (2 comments + 2 CRs + 2 matched), 1C: 5 CRs, Follow-ups: 1 DM, Intros: 6 DMs, InMail: 1
+- **7 items skipped:** Profiles not found in Sales Nav (3), 3rd degree (1), wrong person (1), messaging issues (2). Sales Nav search accuracy still needs work.
+- **Under daily target (23 vs 35-40):** Partially due to skips, partially first-day-of-new-framework learning curve. Need larger target list in prep to account for ~20% skip rate.
+- **10 new connections accepted over weekend** (383 total). 9 intro DMs queued, 6 sent.
+- **Month-to-date: 168 touchpoints across 9 sprints**
+- **No warnings or restrictions.**
