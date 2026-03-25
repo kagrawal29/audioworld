@@ -1,8 +1,71 @@
 # Funnel Intelligence — AudioWorld LinkedIn Outreach
 
-## Last Updated: 2026-03-23 (Monday weekly review)
+## Last Updated: 2026-03-25 (evening pulse)
 
-## Pipeline Summary (as of Mar 19 evening pulse — post Antara's review)
+## Pipeline Summary (as of Mar 25 evening pulse)
+
+| Stage | Count | People |
+|-------|-------|--------|
+| S5 (Meeting/Call) | 2 | Sagar Sahu (call done, Antara engaging directly), Director Sanjay M (reconnecting) |
+| S4 (Replied — Active) | 3 | Amitabha Singh (Panchayat S5 — ESCALATED), Vishal Yoman (8d no reply — going cold), Girish Singh |
+| S3 (Engaged) | 10 | Abhishek Maji (warm, intro DM sent today), Riya M., Joby Jose, Purushottam Desai, Manya Kumaria, Amrit Regi, Zahad S, Dharmendra Gupta, Ayush Soniya, Jayashree Lakshminarayanan |
+| S3 NEW (Mar 23-25 CRs accepted) | 6 | Anshul Jain (PARKED-soft decline), Vivek Bishnoi, Rudra Dasgupta, Ahmed Khan, Shaardul Patthare, Siddhant Trivedi (Mar 25 accept) |
+| COLD (max follow-ups) | 5 | Nahush Badge, Sunny Jani, Satyam Aggarwal, Suuresh Ramachandran, Vishal Yoman (if no reply by Mar 27) |
+| TALENT (do not pitch) | 13+ | Barathraj, Rahul Menon, Abhinav Parmar, Shivani Dalvi, Anshu Priya, Manu Varghese, Nishita Vayeda, Aditya Lahariya, Anju Vinod, Sameir Kale, Shivansh Bhardwaj, Satya Reddy, Michael Kanatous |
+| RELATIONSHIP REPAIR NEEDED | 1 | Shivani Dalvi — 6d unanswered after upset reply. Antara must reply personally. |
+| CLOSED | 4 | Maansi S D., Crispin Reed, Tanya Nambiar, Lakshita Nagpal |
+
+## Stage Movements Mar 23–25
+
+- **Amitabha Singh:** New connection → S4 ACTIVE. Replied about Panchayat S5. Escalated to Ayush+Aayush.
+- **Anshul Jain:** S3 → PARKED. Soft decline (in-house audio team, open to future).
+- **Sumit Pande:** S3 → PARK. Generic positive. No follow-up needed.
+- **Munesh Chaudhary:** S3 → PARK. Thumbs up only. No follow-up.
+- **Abhishek Maji:** S3 WARM → S3 with intro DM sent (Mar 25). Awaiting reply.
+- **Siddhant Trivedi:** Accepted incoming CR (Sound Designer, Quick TV/Sharechat). New S3.
+- **Ayush Soniya + Dharmendra Gupta:** 5-day follow-up DMs sent today.
+
+## Cold Lead Flag (5+ days no response — as of Mar 25)
+
+| Lead | Last Touch | Days | Action |
+|------|-----------|------|--------|
+| Satyam Aggarwal | Mar 16 DM | 9d | COLD — max reached |
+| Vishal Yoman | Mar 17 DM+meeting ask | 8d | COLD — max reached |
+| Girish Singh | Mar 17 comment | 8d | Park — was S4 |
+| Nahush Badge | Mar 17 (2nd follow-up) | 8d | COLD — max reached |
+| Riya M. | Mar 18 DM + Antara email | 7d | CHECK — Antara sent email |
+| Ujjawal Parmar | Mar 19 intro DM | 6d | COLD |
+| Zahad S | Mar 19 reply | 6d | Follow-up due |
+| Shivani Dalvi | Mar 19 (her upset reply) | 6d | ANTARA MUST REPLY |
+| Ayush Soniya | Mar 20 DM → follow-up sent Mar 25 | — | Monitoring |
+| Dharmendra Gupta | Mar 20 DM → follow-up sent Mar 25 | — | Monitoring |
+
+## Mar 25 Sprint Patterns
+
+- **1A signal execution:** 3 blitzes done (Shirley Wang, Alexier Production, Kirti Dorugade). No same-day responses yet.
+- **19 Sales Nav CRs sent** — all with personalized notes. No restrictions.
+- **CR acceptance rate this week:** 4 accepted same day (Siddhant Trivedi + 3 from general batch) — tracking
+- **Amitabha Singh reply quality:** Cinematographer on Amazon Prime show. Asked about our work = genuine opener. Replied warmly asking about production stage.
+- **Short drama dubbing (Shirley Wang):** Indian languages not in her current list. Positioning as future partner for Indian expansion.
+- **New categories to avoid:** Music producers, singers, music directors (Antara directive Mar 24)
+
+## Historical Sprint Log (cumulative)
+
+| Date | Touchpoints | CRs | DMs | Comments | Notes |
+|------|------------|-----|-----|----------|-------|
+| Mar 4 | 17 | 9 | 3 | 5 | Ad Agencies, manual |
+| Mar 5 | 9 | 0 | 2 | 7 | Corporate Video, manual |
+| Mar 7 | 10 | 0 | 2 | 8 | Ad Agencies, manual |
+| Mar 16 | 19 | 1 | 10 | 8 | First auto-sprint |
+| Mar 17 | 15 | 0 | 7 | 8 | Animation |
+| Mar 18 | 17 | 0 | 9 | 8 | Sales Nav activated |
+| Mar 19 | 31 | 13 | 8 | 10 | First CR blitz |
+| Mar 20 | 27 | 13 | 4 | 10 | Fast TAT |
+| Mar 23 | 23 | 10 | 7 | 5+1 InMail | First Tier 1 ICP |
+| Mar 25 | 33 | 19 | 7 | 7 | 1A blitzes, Amitabha reply |
+| **TOTAL** | **201** | **65** | **59** | **76+1** | |
+
+## Historical Sprint Summary (as of Mar 19 evening pulse — post Antara's review)
 
 | Stage | Count | % of Total | Description |
 |-------|-------|-----------|-------------|
