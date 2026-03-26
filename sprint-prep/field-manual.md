@@ -104,21 +104,46 @@ This is NOT optional. Direct requirements are the highest-conversion opportuniti
 4. Report to team lead every 3-4 actions
 5. Any failure or warning = pause 5 min. CAPTCHA = full stop.
 
-### ⚠️ CRITICAL: How to Send DMs — COMPOSE OVERLAY IS BANNED
+### ⚠️ CRITICAL: DM Workflow — Mandatory Recipient Verification
 
-**The compose overlay bug (confirmed twice: Mar 18, Mar 25):** Using the "New Message" compose button or any floating compose window reuses the previous recipient. Messages land in the WRONG thread silently — no error shown.
+**Root cause (confirmed Mar 18 + Mar 26):** LinkedIn compose overlays silently reuse the previous recipient. The message sends successfully with no error — but to the wrong person.
 
-**BANNED — never use these to send DMs:**
-- The pencil/compose icon in the messaging sidebar
-- Any "New Message" button in the inbox header
+**THE FULL DM PROTOCOL — follow every single time, no exceptions:**
+
+**Step 1 — Open the correct thread (profile-first only):**
+- Navigate to the recipient's profile page: `linkedin.com/in/[slug]`
+- Click the **Message** button on their profile
+- Wait for the chat window to load fully (2-3 seconds)
+
+**Step 2 — VERIFY recipient before typing anything:**
+Before typing a single character, run this check:
+```javascript
+// browser_evaluate to read the thread header name
+document.querySelector('.msg-thread-headline__title, .msg-convo-wrapper__header-name, h2.t-16')?.innerText?.trim()
+```
+If that returns empty, try: `document.querySelector('[data-test-id="msg-details-title"]')?.innerText?.trim()`
+
+**The name returned MUST match your intended recipient exactly.** If it doesn't match — STOP. Close the window, navigate away to `/feed`, wait 10 seconds, then re-open from the profile page.
+
+**Step 3 — Log the verification:**
+In your action log, record:
+```
+## HH:MM:SS - dm-verify
+thread_header: "[Name returned by DOM]"
+intended: "[Name you meant to message]"
+match: YES
+```
+Only proceed if match is YES.
+
+**Step 4 — Type and send.**
+
+**BANNED — never open a DM this way:**
+- Pencil/compose icon in messaging sidebar
+- "New Message" button anywhere
 - Any floating compose overlay
+- Clicking a name inside the messaging inbox list (can load wrong thread state)
 
-**ONLY permitted method for sending DMs:**
-1. Search for the person's name → open their full profile page
-2. Click the **Message** button on their profile page
-3. This opens a clean, correctly-addressed thread
-
-This adds 20-30 seconds per DM. Do it anyway. Wrong-thread DMs damage relationships and cannot be recalled.
+**If DOM check returns wrong name or empty:** Do NOT send. Log as `dm-verify: FAILED`, skip this DM, flag in report.
 
 ### Pacing
 | Action | Wait before | Extra |
