@@ -1,8 +1,36 @@
 # Funnel Intelligence — AudioWorld LinkedIn Outreach
 
-## Last Updated: 2026-03-25 (evening pulse)
+## Last Updated: 2026-03-26 (evening pulse)
 
-## Pipeline Summary (as of Mar 25 evening pulse)
+## Stage Movements Mar 26
+
+- **Ahmed Khan** (Producer, Imagine Media): S3 → S4. "Yes sure, we can speak sometime." Meeting ask sent (3-5pm IST). Escalation sent. Aayush replied "Incredible work Charlie."
+- **Manddar Karanjalkar** (Co-Founder, Golden Peacock Telefilms): New S3 WARM. "We are lining up few audio series. Will discuss at that time." Active production pipeline.
+- **Siddhant Trivedi** (Sound Designer, Quick TV/Sharechat): S3 — positive intro DM response. Short drama platform, good network node.
+- **Samya Chattopadhyay**: S3 — asked for our CR note, sent full intro. Engaged.
+- **Abhijeet Nag**: S3 — "Sure, will let you know if something comes in." Standard polite ack.
+- **Rudra Dasgupta**: Thumbs up. Minimal. Park.
+
+## Cold Lead Closures (Mar 26 — max follow-ups reached or 7+ days silence)
+
+| Lead | Last Touch | Days | Status |
+|------|-----------|------|--------|
+| Satyam Aggarwal | Mar 16 DM | 10d | CLOSED — cold, no reply |
+| Vishal Yoman | Mar 17 meeting ask | 9d | CLOSED — cold, max reached |
+| Girish Singh | Mar 17 comment | 9d | PARKED — was warm, gone quiet |
+| Nahush Badge | Mar 17 (2nd follow-up) | 9d | CLOSED — cold, max reached |
+| Ujjawal Parmar | Mar 19 DM | 7d | CLOSED — cold |
+| Zahad S | Mar 19 "Sure" reply | 7d | CLOSED — no follow-up reply |
+
+## Mar 26 Patterns
+
+- **New geo (Bangalore/Hyderabad/Chennai/Kolkata):** 15 CRs sent to fresh markets. No same-day accepts yet — will monitor.
+- **Riya M. still posting actively:** 4 posts commented on (direct requirements, dubbing searches, regional content). High-frequency poster = keep engaging.
+- **Aryemann/Saregama:** 2 more comments posted. Still no reply to our Mar 23 InMail/CR. 3 days — still within window.
+- **DM misrouting fix:** DOM verification protocol added to field manual. Zero misroutes in today's sprint (9 DMs sent, all verified).
+- **Comments on 1A leads (Amitabha, Riya, Aryemann):** Consistent presence without being pushy. Building familiarity before they're ready to transact.
+
+## Pipeline Summary (as of Mar 26 evening pulse)
 
 | Stage | Count | People |
 |-------|-------|--------|
