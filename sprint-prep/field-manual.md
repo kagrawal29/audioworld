@@ -104,6 +104,22 @@ This is NOT optional. Direct requirements are the highest-conversion opportuniti
 4. Report to team lead every 3-4 actions
 5. Any failure or warning = pause 5 min. CAPTCHA = full stop.
 
+### ⚠️ CRITICAL: How to Send DMs — COMPOSE OVERLAY IS BANNED
+
+**The compose overlay bug (confirmed twice: Mar 18, Mar 25):** Using the "New Message" compose button or any floating compose window reuses the previous recipient. Messages land in the WRONG thread silently — no error shown.
+
+**BANNED — never use these to send DMs:**
+- The pencil/compose icon in the messaging sidebar
+- Any "New Message" button in the inbox header
+- Any floating compose overlay
+
+**ONLY permitted method for sending DMs:**
+1. Search for the person's name → open their full profile page
+2. Click the **Message** button on their profile page
+3. This opens a clean, correctly-addressed thread
+
+This adds 20-30 seconds per DM. Do it anyway. Wrong-thread DMs damage relationships and cannot be recalled.
+
 ### Pacing
 | Action | Wait before | Extra |
 |--------|------------|-------|
