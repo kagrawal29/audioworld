@@ -1,6 +1,19 @@
 # Funnel Intelligence — AudioWorld LinkedIn Outreach
 
-## Last Updated: 2026-03-26 (evening pulse)
+## Last Updated: 2026-03-27 (morning sprint)
+
+## Stage Movements Mar 27
+
+- **Bulbul Biswas** (Founder, K P Audio Productions, Kolkata): 1A DIRECT REQUIREMENT. Posted: urgently needed Punjabi/Bhojpuri/Haryanvi/Gujarati/Rajasthani dubbing. Full blitz: comment + DM + CR + escalation email sent. HIGH VALUE — multi-language requirement matches our core capability exactly.
+- **Kireet Khurana**: New connection. 6 National Award-winning filmmaker. CR accepted. Send intro DM when ready.
+- **Jay A. Bhansali**: New connection. Goafest winner, Creative Director. High-pedigree. Intro DM pending.
+
+## Mar 27 Patterns
+
+- **1A signal = exact language match:** Bulbul Biswas specifically named Punjabi/Bhojpuri/Haryanvi/Gujarati/Rajasthani — directly in our wheelhouse. Immediate full blitz appropriate.
+- **DM misrouting (1 more):** Abhijeet's DM went to Manddar's thread. Manddar was amused, covered gracefully. DOM verification protocol needs more enforcement. Consider adding pre-DM name check as mandatory step in operator field manual.
+- **Gmail:** Aayush replied positively to Ahmed Khan escalation. Michael Kanatous email not yet received (may still be in transit or different email).
+- **Pacing:** 41/42 target hit (98%). Consistent execution across 17 CRs + 14 DMs + 10 comments in single sprint.
 
 ## Stage Movements Mar 26
 
@@ -91,7 +104,9 @@
 | Mar 20 | 27 | 13 | 4 | 10 | Fast TAT |
 | Mar 23 | 23 | 10 | 7 | 5+1 InMail | First Tier 1 ICP |
 | Mar 25 | 33 | 19 | 7 | 7 | 1A blitzes, Amitabha reply |
-| **TOTAL** | **201** | **65** | **59** | **76+1** | |
+| Mar 26 | 33 | 15 | 9 | 9 | Damage control, Ahmed Khan S4 |
+| Mar 27 | 41 | 17 | 14 | 10 | 1A: Bulbul Biswas, Kireet Khurana |
+| **TOTAL** | **275** | **97** | **77** | **98+1** | |
 
 ## Historical Sprint Summary (as of Mar 19 evening pulse — post Antara's review)
 
