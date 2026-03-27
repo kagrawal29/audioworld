@@ -15,6 +15,24 @@
 - **Gmail:** Aayush replied positively to Ahmed Khan escalation. Michael Kanatous email not yet received (may still be in transit or different email).
 - **Pacing:** 41/42 target hit (98%). Consistent execution across 17 CRs + 14 DMs + 10 comments in single sprint.
 
+## Cold Lead Flag (5+ days — as of Mar 27 evening)
+
+| Lead | Last Touch | Days | Action |
+|------|-----------|------|--------|
+| Riya M. | Mar 18 DM + Antara email | 9d | Wait for Antara email reply, don't double-touch |
+| Jayashree Lakshminarayanan | Mar 21 "Will be in touch" | 6d | Gentle nudge Monday |
+| Joby Jose | Mar 16 re-engage | 11d | Existing client — check if active elsewhere |
+| Shivani Dalvi | Mar 19 upset reply | 8d | ANTARA MUST REPLY PERSONALLY |
+
+## Intro DM Queue (Monday)
+
+| Lead | Accepted | Priority |
+|------|----------|----------|
+| Vivek Bishnoi | Mar 23 (4d overdue) | HIGH — Mercy Records, audio post + localisation |
+| Kireet Khurana | Mar 27 | HIGH — 6 National Awards filmmaker |
+| Jay A. Bhansali | Mar 27 | MEDIUM — Goafest winner, Creative Director |
+| Bulbul Biswas | CR pending | Send intro DM on acceptance |
+
 ## Stage Movements Mar 26
 
 - **Ahmed Khan** (Producer, Imagine Media): S3 → S4. "Yes sure, we can speak sometime." Meeting ask sent (3-5pm IST). Escalation sent. Aayush replied "Incredible work Charlie."
