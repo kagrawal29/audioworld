@@ -1,6 +1,62 @@
 # Funnel Intelligence — AudioWorld LinkedIn Outreach
 
-## Last Updated: 2026-03-27 (morning sprint)
+## Last Updated: 2026-03-30 (Monday weekly review)
+
+## Weekly Review — Mar 23–27 (Week 4)
+
+### Sub-Tier Conversion Table (first full week of data)
+
+| Sub-Tier | Contacts Touched | Responses | Conv. Rate | Notes |
+|----------|-----------------|-----------|------------|-------|
+| 1A (direct req) | ~5 | 5 | ~100% | Bulbul Biswas, Aryemann, Riya M., Shirley Wang, Alexier |
+| 1B (production signal) | ~15 | 3–4 | ~20–25% | Ahmed Khan, Manddar Karanjalkar, Amitabha Singh |
+| 1C (profile fit only) | ~40 | 3–4 | ~8–10% | Samya Chattopadhyay, Abhijeet Nag, generic accepts |
+
+### Profile Patterns That Respond
+
+- **Title:** Founders and Co-Founders respond best. Production Heads > Creative Directors > Producers.
+- **Segment:** Independent/boutique production houses > large ad agencies. Smaller shops = owner answers DMs.
+- **Activity:** Profiles that posted within 7 days responded 2–3x more than inactive ones. Activity = intent.
+- **Geo:** Mumbai + Delhi most responsive. Bangalore/Hyderabad/Kolkata batch (Mar 26) slower to accept — watch next 7 days.
+
+### Template Effectiveness
+
+- **1A blitz (direct requirement response):** Near 100% engagement. Always worth full treatment.
+- **1B personalised CR (referencing specific post/project):** ~25% DM reply rate on accepted CRs. Best performer.
+- **1C personalised CR (company work reference):** ~8% reply rate. Useful for volume; needs strong hook to stand out.
+- **Intro DM after acceptance:** ~30% reply rate if sent within 48h of acceptance. Rate drops sharply after 5d.
+
+### Drop Analysis
+
+- **S3 stall (main bottleneck):** Most leads stall at "Sure / Great / Thanks" with no follow-up from their side. They need an active project to progress. Flag for 30-day re-touch.
+- **S4 stall:** Meeting ask → silence is the second drop point. Ahmed Khan at risk if no reply by tomorrow.
+- **1A leads not converting:** Aryemann/Saregama and Riya M. both highly engaged but haven't transacted. Likely have internal processes; keep nurturing without pressure.
+
+### Recommendations for Week 5 (Mar 30 – Apr 4)
+
+1. **1A scan first** — spend first 15 min of every sprint scanning Sales Nav activity filter before touching 1B/1C
+2. **Intro DMs overdue** — Vivek Bishnoi (7d), Kireet Khurana (3d), Jay A. Bhansali (3d) — send today
+3. **Ahmed Khan follow-up** — if no reply by EOD today, follow up tomorrow
+4. **Jayashree nudge** — gentle follow-up today (9 days since "Will be in touch")
+5. **1C allocation** — can trim from 60% to 50% in favour of 1B; 1B is converting better
+6. **April reset** — last 2 March days are cleanup; April starts fresh at 41/day
+
+## Stage Movements Mar 30
+
+- **Mikhil Musale** (National Award Director, Gujarat): S3 → S4 HOT. "Pls share details on mikhilmusale@gmail.com." High intent — he initiated. Escalated immediately.
+- **Ayush Gupta** (Film Director, Rawpexels, Mumbai): S3 → S4 HOT. "Share your deck." Escalated immediately.
+- **Ojaswwee Sharma** (National Award Director): New S3 WARM. "Would like to learn more." Follow-up DM sent.
+- **Bulbul Biswas**: CR accepted → intro DM sent referencing Punjabi/Bhojpuri/Haryanvi/Gujarati/Rajasthani requirement.
+- **Imran Shamsi**: CR accepted → intro DM sent.
+- **Ahmed Khan**: S4 → S4 COLD. 4 days no reply to meeting ask. Follow-up DM today.
+- **Ameya Vaidya**: New S3. Planning kids content, interested in Soundmagix connection. Warm.
+
+## Mar 30 Patterns
+
+- **National Award Director profile converts fast:** Mikhil Musale and Ojaswwee Sharma both S3+ in same session. High-credibility filmmaker titles respond at higher rate than agency leads.
+- **10 unread replies from Mar 27 sprint** — inbox was full. Most acknowledged, 2 went hot. Monitoring all.
+- **Sales Nav lazy-loading limit:** Only 3-4 results render action buttons per page. Max CRs per sprint effectively ~13-15 unless scrolling works. Not a LinkedIn limit — a rendering issue. Workaround: open individual profiles directly rather than using list actions.
+- **Bulbul Biswas accepted same day (3 days):** Fast acceptance on 1A direct requirement profile. Intro DM referencing her specific post = strong opener.
 
 ## Stage Movements Mar 27
 
@@ -124,7 +180,8 @@
 | Mar 25 | 33 | 19 | 7 | 7 | 1A blitzes, Amitabha reply |
 | Mar 26 | 33 | 15 | 9 | 9 | Damage control, Ahmed Khan S4 |
 | Mar 27 | 41 | 17 | 14 | 10 | 1A: Bulbul Biswas, Kireet Khurana |
-| **TOTAL** | **275** | **97** | **77** | **98+1** | |
+| Mar 30 | 36 | 13 | 13 | 10 | HOT: Mikhil Musale + Ayush Gupta |
+| **TOTAL** | **311** | **110** | **90** | **108+1** | |
 
 ## Historical Sprint Summary (as of Mar 19 evening pulse — post Antara's review)
 
