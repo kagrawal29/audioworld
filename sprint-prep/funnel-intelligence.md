@@ -1,6 +1,32 @@
 # Funnel Intelligence — AudioWorld LinkedIn Outreach
 
-## Last Updated: 2026-03-30 (Monday weekly review)
+## Last Updated: 2026-03-31 (month-end close)
+
+## Month-End Close — March 2026
+
+### Final Numbers
+- Total touchpoints: 311 (13 sprints)
+- CRs: 110 | DMs: ~90 | Comments: ~108
+- Target: 402 — 77% achievement
+- Gap: ~91 tp (2-day downtime ~50 + proxy outage Mar 31 ~40) — not performance-driven
+- Mar 31 sprint: MISSED — Decodo proxy upstream down, TCP connects but no forwarding
+
+### Month-End Pipeline Snapshot (as of Mar 31)
+
+| Stage | Count | Key Names |
+|-------|-------|-----------|
+| S5 (Meeting/Call done) | 2 | Sagar Sahu (Antara engaging), Director Sanjay M |
+| S4 HOT (pending Antara action) | 2 | Mikhil Musale (email request), Ayush Gupta (deck request) |
+| S4 (Active, meeting-stage) | 2 | Ahmed Khan (5d cold), Amitabha Singh (awaiting reply) |
+| S3 WARM | 7+ | Abhishek Maji, Manddar Karanjalkar, Ojaswwee Sharma, Vivek Bishnoi, Kireet Khurana, Imran Shamsi, Bulbul Biswas |
+| S3 (Monitoring) | 6+ | Jayashree L., Siddhant Trivedi, Ameya Vaidya, Dharmendra G., Ayush Soniya, Samya C. |
+| COLD/CLOSED | 12 | Suuresh, Satyam, Vishal Yoman, Nahush, Sunny, Girish, Zahad, Ujjawal, Maansi, Crispin, Tanya, Lakshita |
+| TALENT (excluded) | 13 | Shivani Dalvi (needs Antara personal reply), + 12 others |
+
+### Direct Requirements Open (1A — no close yet)
+- Riya M. (Audio Post Production Partner) — 13 days, Antara email unanswered
+- Aryemann/Saregama (BULK calendar-year) — 8 days, no reply to InMail/CR
+- Bulbul Biswas (Punjabi/Bhojpuri/Haryanvi/Gujarati/Rajasthani) — intro DM sent Mar 30
 
 ## Weekly Review — Mar 23–27 (Week 4)
 
