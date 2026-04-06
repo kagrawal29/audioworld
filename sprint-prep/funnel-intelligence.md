@@ -1,6 +1,51 @@
 # Funnel Intelligence — AudioWorld LinkedIn Outreach
 
-## Last Updated: 2026-03-31 (month-end close)
+## Last Updated: 2026-04-06 (Monday weekly review — Week 1 April)
+
+## Weekly Review — Apr 1–5 (Week 1 of April — Proxy Outage Week)
+
+### Performance
+- Sprints: 0 / 5 planned. Decodo proxy down since Mar 31 (TCP connects, no HTTP forwarding).
+- Touchpoints: 0 / 205 target (0%)
+- April MTD: 0 / 900 target. First full week of April lost.
+- Proxy renewal was due Apr 2 (card 4394, Paddle). Renewal status unknown.
+
+### Stage Movements (no new touches — just aging)
+
+| Lead | Last Touch | Days Apr 6 | Status |
+|------|-----------|------------|--------|
+| Mikhil Musale | Mar 30 (replied) | 7d | S4 HOT — Antara action overdue (3 escalations sent) |
+| Ayush Gupta | Mar 30 (replied) | 7d | S4 HOT — Antara action overdue |
+| Ojaswwee Sharma | Mar 30 | 7d | S3 WARM — follow-up pending |
+| Bulbul Biswas | Mar 30 (intro DM) | 7d | S3 — monitoring |
+| Imran Shamsi | Mar 30 (intro DM) | 7d | S3 — monitoring |
+| Ahmed Khan | Mar 26 (meeting ask) | 11d | CLOSED — max follow-ups, no reply |
+| Abhishek Maji | Mar 26 (intro DM) | 11d | S3 → COLD — close if no reply Day 1 sprint |
+| Manddar Karanjalkar | Mar 26 | 11d | S3 WARM → stalling — nudge Day 1 sprint |
+| Jayashree L. | Mar 25 | 12d | S3 → COLD — close if no reply |
+| Aryemann/Saregama | Mar 23 | 14d | 1A req still open but silent — one more try |
+| Riya M. | Mar 18 | 19d | CLOSING — Antara email unanswered, max on our side |
+
+### Cold Lead Closures (Week 1 April)
+- Ahmed Khan: CLOSED (11d, no reply to meeting ask)
+- Dharmendra Gupta: CLOSED (18d, 2 touches, generic "Sure")
+- Ayush Soniya: CLOSED (18d, 2 touches, generic "Great")
+- Zahad S.: CLOSED (18d, greeting only, no follow-up reply)
+- Riya M.: CLOSING (19d — Antara emailed, no word back)
+- Jayashree L.: CLOSING (12d — "will be in touch" didn't materialise)
+
+### Patterns (proxy-outage week — observational only)
+- **Lead shelf life confirmed at ~7-10 days:** Leads touched Mar 30 are now at the edge. Mikhil Musale (7d) and Ayush Gupta (7d) are the critical test cases — if Antara doesn't act by this week they'll be cold.
+- **No new data this week** — proxy outage means no sprints, no new signals.
+- **The proxy is the constraint, not the strategy.** Framework is working (last sprint Mar 30: 2 S4 HOT leads, 69% CR acceptance rate). Outage is an infrastructure problem, not a campaign problem.
+
+### Recommendations for Week 2 of April (Apr 7–11)
+1. **Day 1 sprint = catch-up push** — target 45-50 tp if proxy restores. First hour: priority DM queue (Mikhil follow-up if Antara hasn't, Abhishek Maji nudge, Manddar nudge, Aryemann final attempt)
+2. **1A scan first** — 15 min scanning Sales Nav + groups before any 1B/1C outreach
+3. **1B allocation** — data now shows 1B (~20-25% response) is 2-3x better than 1C (~8-10%). Consider shifting to 50/50 from 40/60.
+4. **Sub-tier evaluation checkpoint** — April 4 was the originally planned checkpoint. Data leans clearly toward 1B > 1C. Make the shift.
+5. **New Sales Nav list** — prev list exhausted many contacts. Fresh search with tighter filters: Founder/EP/Creative Director, <200 employees, India, posted last 30 days.
+6. **Weekly target:** 41/day × 5 days = 205 touchpoints. With catch-up, push for 45-50/day where possible.
 
 ## Month-End Close — March 2026
 
